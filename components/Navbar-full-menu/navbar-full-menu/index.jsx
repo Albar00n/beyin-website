@@ -17,7 +17,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 			>
 				<div className="container-fluid">
 					<div className="logo">
-						<a href="#0">
+						<a href="/">
 							{theme ? (
 								theme === "light" ? (
 									<img src={`${appData.darkLogo}`} alt="logo" />
@@ -28,6 +28,9 @@ const NavbarFullMenu = ({ theme, lr }) => {
 								<img src={`${appData.lightLogo}`} alt="logo" />
 							)}
 						</a>
+					</div>
+					<div>
+						
 					</div>
 					<div className="menu-icon">
 						<span className="icon">
@@ -51,10 +54,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
 								<ul className="main-menu">
 									<li>
 										<div className="o-hidden">
-											<span className="link dmenu">
-												<span className="nm">01.</span>Home
-												{/* <i className="fas fa-angle-right"></i> */}
-											</span>
+											<Link href="/">
+												<a className="link">
+													<span className="nm">01.</span>Home
+												</a>
+											</Link>
 										</div>
 										<div className="sub-menu">
 											<ul>
@@ -174,12 +178,13 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
 									<li>
 										<div className="o-hidden">
-											<Link href="/projects/porjects-details">
+											<Link href="/projects/porjects">
 												<a className="sub-link">
 													<span className="nm">03.</span>Projects
 												</a>
 											</Link>
 										</div>
+
 										<div className="sub-menu">
 											<ul>
 												<li>

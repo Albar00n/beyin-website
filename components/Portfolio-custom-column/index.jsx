@@ -113,7 +113,7 @@ const PortfolioCustomColumn = ({
 						alignItems: "center",
 					}}
 				>
-					<Link href="/projects/projects-details/">
+					<Link href="/projects/projects/">
 						<a
 							className={`btn-curve ${
 								theme == "light" ? "btn-blc" : "btn-lit"
