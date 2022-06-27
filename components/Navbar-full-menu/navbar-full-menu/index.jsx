@@ -174,9 +174,9 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
 									<li>
 										<div className="o-hidden">
-											<Link href="/projects">
+											<Link href="/projects/porjects-details">
 												<a className="sub-link">
-													<span className="nm">01.</span>Projects
+													<span className="nm">03.</span>Projects
 												</a>
 											</Link>
 										</div>
@@ -233,7 +233,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 										<div className="o-hidden">
 											<Link href="/contact">
 												<a className="link">
-													<span className="nm">05.</span>Contact
+													<span className="nm">04.</span>Contact
 												</a>
 											</Link>
 										</div>
