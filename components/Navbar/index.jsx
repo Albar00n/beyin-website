@@ -22,7 +22,7 @@ const Navbar = ({ lr, nr, theme }) => {
 		>
 			<div className="container">
 				<Link href="/">
-					<a className="logo" style={{ fontSize: "20px" }}>
+					<a className="logo">
 						{theme ? (
 							theme === "themeL" ? (
 								<img ref={lr} src={`${appData.darkLogo}`} alt="logo" />
@@ -65,11 +65,11 @@ const Navbar = ({ lr, nr, theme }) => {
 						</li>
 						<li className="nav-item ">
 							<Link href="/about">
-								<a className="nav-link">About</a>
+								<a className="nav-link">About Us</a>
 							</Link>
 						</li>
 						<li className="nav-item dropdown">
-							<Link href="/contact/contact-dark">
+							<Link href="/contact">
 								<a className="nav-link">Start a Project</a>
 							</Link>
 						</li>

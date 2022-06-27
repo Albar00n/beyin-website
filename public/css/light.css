@@ -1726,7 +1726,7 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-  /* width: 70px; */
+  width: 70px;
 }
 .navbar.light .navbar-nav .nav-link {
   color: #0c0f16;
@@ -1783,7 +1783,7 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  /* width: 70px; */
+  width: 70px;
 }
 .topnav .menu-icon {
   margin-left: auto;
@@ -5776,7 +5776,7 @@ body {
   }
   .navbar .logo {
     margin-left: 15px;
-    /* width: 70px; */
+    width: 70px;
   }
   .menubarblack .icon-bar i {
     color: #000;
@@ -6036,7 +6036,7 @@ body {
     bottom: 15px;
   }
   .navbar .logo {
-    /* width: 70px; */
+    width: 70px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -6048,7 +6048,7 @@ body {
     padding: 0 30px;
   }
   .topnav .logo {
-    /* width: 70px; */
+    width: 70px;
   }
   .btn-curve {
     padding: 8px 15px;

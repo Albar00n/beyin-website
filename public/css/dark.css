@@ -1162,6 +1162,11 @@ body {
 .cursor-outer.cursor-hover {
   opacity: 0;
 }
+@media screen and (max-width:800px) {
+.mouse-cursor { display: none;}
+/* .cursor-inner {display: none;} */
+/* .cursor-outer{display: none;} */
+}
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
@@ -1760,7 +1765,7 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  /* width: 50px; */
+  width: 50px;
 }
 .topnav .menu-icon {
   margin-left: auto;
@@ -5672,8 +5677,9 @@ body {
     margin: 10px auto !important;
   }
   .navbar .logo {
-    margin-left: 15px;
-    /* width: 50px; */
+    margin: 15px;
+    width: 60px;
+
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -5930,7 +5936,7 @@ body {
     bottom: 15px;
   }
   .navbar .logo {
-    /* width: 40px; */
+    width: 40px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -5942,7 +5948,7 @@ body {
     padding: 0 30px;
   }
   .topnav .logo {
-    /* width: 40px; */
+    width: 40px;
   }
   .works-header {
     min-height: 60vh;

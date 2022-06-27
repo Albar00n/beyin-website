@@ -10,6 +10,7 @@ const PortfolioCustomColumn = ({
 	filterPosition,
 	hideFilter,
 	hideSectionTitle,
+	theme,
 }) => {
 	const [pageLoaded, setPageLoaded] = React.useState(false);
 	React.useEffect(() => {
@@ -60,7 +61,6 @@ const PortfolioCustomColumn = ({
 							</div>
 						</div>
 					)}
-
 					<div className="gallery full-width">
 						{portfolio1Data.map((item, index) => (
 							<div
@@ -104,6 +104,27 @@ const PortfolioCustomColumn = ({
 					</div>
 				</div>
 			</div>
+			<dib>
+				<div
+					className="container"
+					style={{
+						display: "flex",
+						justifyContent: "center",
+						alignItems: "center",
+					}}
+				>
+					<Link href="/projects/projects-details/">
+						<a
+							className={`btn-curve ${
+								theme == "light" ? "btn-blc" : "btn-lit"
+							} wow fadeInUp`}
+							data-wow-delay=".5s"
+						>
+							<span>Show more</span>
+						</a>
+					</Link>
+				</div>
+			</dib>
 		</section>
 	);
 };

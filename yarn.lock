@@ -32,6 +32,97 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@here/harp-datasource-protocol@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-datasource-protocol/-/harp-datasource-protocol-0.28.0.tgz#57c4dadfd41de931fa173d9da357c28da184db4e"
+  integrity sha512-/Ght8MD4l7xY9wrTLlq7ymXqkdbgaa91uxEpaPN+YlRoiIJpRksc8Wo1HCbWmjk6bCm7Qqb/iYMPKoKlXwB2fw==
+  dependencies:
+    "@here/harp-geometry" "^0.28.0"
+    "@here/harp-geoutils" "^0.28.0"
+    "@here/harp-utils" "^0.28.0"
+    csscolorparser "^1.0.3"
+
+"@here/harp-fetch@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-fetch/-/harp-fetch-0.28.0.tgz#9c0e00e90a4df1faf2cb5566db17ca7289f4177a"
+  integrity sha512-OC6sRsPQX2i8Gp2DLFkLI22bHk0khEPy8dSkhDu9nh3rjYRRW1glLpdkqsjqqOA6bu4evF0LopI8FT4unSsYwQ==
+  dependencies:
+    node-fetch "^2.6.1"
+
+"@here/harp-geometry@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-geometry/-/harp-geometry-0.28.0.tgz#978e469e9af7a51f5568f02ce129d881458c8cd2"
+  integrity sha512-FtA9P9jIYLXyvGiCXCDfJ9jXfY09K0ZFDtT1azAM6/9vWKXS0RSstvGvULxH5xOsgCpjWkb7jMkAIGmlNHNVrA==
+  dependencies:
+    "@here/harp-geoutils" "^0.28.0"
+    "@here/harp-utils" "^0.28.0"
+
+"@here/harp-geoutils@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-geoutils/-/harp-geoutils-0.28.0.tgz#f9967e01c94cd4b950d79b3febebee83aadeb906"
+  integrity sha512-hfRVaUE5nu9uIWshlz64X9coHWb84bwciEIIzZuDKaalayu/3QT5v2e6ZHuQhJf+WW6cnXnwc6lYDEl1lIfgqA==
+
+"@here/harp-lines@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-lines/-/harp-lines-0.28.0.tgz#3add941489da1dc96b21894e6322e3d1520d96a9"
+  integrity sha512-3dgiU4gTUi/bf2a8I5foTXg6uHlM+PkkpJ5hzuOu0ad1ZGnSriMm66KMqQZ2lNLxGuaXWk8/1ERSZrdBNZEMAg==
+  dependencies:
+    "@here/harp-geoutils" "^0.28.0"
+    "@here/harp-materials" "^0.28.0"
+    "@here/harp-utils" "^0.28.0"
+
+"@here/harp-lrucache@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-lrucache/-/harp-lrucache-0.28.0.tgz#956e6d536b666f18f215737934528ec35eb2e5d1"
+  integrity sha512-b98PSkEJ/tvSyVVQcbgXXlNCyIRn/Tkgv09iw+Tu1IfqK9ANtz6KHGanxIWheU2Nx3U2VcoAXY5yr0eWImndyg==
+  dependencies:
+    "@here/harp-utils" "^0.28.0"
+
+"@here/harp-mapview@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-mapview/-/harp-mapview-0.28.0.tgz#dcda2798c7aedb91e3eec6e921fc0ff67c6f3160"
+  integrity sha512-whRG3pVDx+PYHgXby+l5QD7Cf/OiHbJvMozUV+8zn0xkAtci8vbzFFMW+ltEmdeQZpFATRTDDUo/BMl4mTGJ1w==
+  dependencies:
+    "@here/harp-datasource-protocol" "^0.28.0"
+    "@here/harp-fetch" "^0.28.0"
+    "@here/harp-geometry" "^0.28.0"
+    "@here/harp-geoutils" "^0.28.0"
+    "@here/harp-lines" "^0.28.0"
+    "@here/harp-lrucache" "^0.28.0"
+    "@here/harp-materials" "^0.28.0"
+    "@here/harp-text-canvas" "^0.28.0"
+    "@here/harp-transfer-manager" "^0.28.0"
+    "@here/harp-utils" "^0.28.0"
+    rbush "^3.0.1"
+
+"@here/harp-materials@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-materials/-/harp-materials-0.28.0.tgz#6b7e8a44d40ee564a9978212a2052cfdb0dc756d"
+  integrity sha512-WQafhJCvAQrNuiy6Mxr8LvPo7fC/0skHGZfVsY1leYCbseKgEDGOS8RrD83N96VYOoZlz1Vry7trJOeIwyJLzg==
+  dependencies:
+    "@here/harp-datasource-protocol" "^0.28.0"
+    "@here/harp-utils" "^0.28.0"
+
+"@here/harp-text-canvas@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-text-canvas/-/harp-text-canvas-0.28.0.tgz#2b7d9a495f8c38a35196a95b092d5714bd0ff0ac"
+  integrity sha512-oXgKzY671tLZ2na5P+pbDtCmapBkDBuLTH7lEV9Dx/6Tl41oY2wO7dt+D+f/CBbVyR4iV8T78dNO/+HJKQE6Fw==
+  dependencies:
+    "@here/harp-lrucache" "^0.28.0"
+    "@here/harp-utils" "^0.28.0"
+
+"@here/harp-transfer-manager@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-transfer-manager/-/harp-transfer-manager-0.28.0.tgz#d24a2e2ac2c203a4c1ce8878a04329c1ea462028"
+  integrity sha512-QpcgRUUkMd4bg1yJYsqFYm6wM2yRuTjJMx9M4IVj/UIbH+Zz3dcgijpg+Dzdh4fFN+SUeI7dQBqQls5N/V4JYw==
+  dependencies:
+    "@here/harp-fetch" "^0.28.0"
+
+"@here/harp-utils@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@here/harp-utils/-/harp-utils-0.28.0.tgz#ab03cef8c417ceb68c2caab5e7e76993dc8282bc"
+  integrity sha512-pSDir648UwlReWWOz7bZvVEZyaXxhZ4Xt9L+fZGZ07wiCCJzmgEvS3+5mOi7F7d0bXbjn4D0uO6npglFHNf+sw==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
@@ -375,6 +466,11 @@ cross-spawn@^7.0.2:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+csscolorparser@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/csscolorparser/-/csscolorparser-1.0.3.tgz#b34f391eea4da8f3e98231e2ccd8df9c041f171b"
+  integrity sha512-umPSgYwZkdFoUrH5hIq5kf0wPSXiro51nPw0j2K/c83KflkPSTBGMz6NJvMB+07VlL0y7VPo6QJcDjcgKTTm3w==
 
 damerau-levenshtein@^1.0.8:
   version "1.0.8"
@@ -1269,6 +1365,13 @@ next@12.1.6:
     "@next/swc-win32-ia32-msvc" "12.1.6"
     "@next/swc-win32-x64-msvc" "12.1.6"
 
+node-fetch@^2.6.1:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -1441,6 +1544,18 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+quickselect@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/quickselect/-/quickselect-2.0.0.tgz#f19680a486a5eefb581303e023e98faaf25dd018"
+  integrity sha512-RKJ22hX8mHe3Y6wH/N3wCM6BWtjaxIyyUIkpHOvfFnxdI4yD4tBXEBKSbriGujF6jnSVkJrffuo6vxACiSSxIw==
+
+rbush@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/rbush/-/rbush-3.0.1.tgz#5fafa8a79b3b9afdfe5008403a720cc1de882ecf"
+  integrity sha512-XRaVO0YecOpEuIvbhbpTrZgoiI6xBlz6hnlr6EHhd+0x9ase6EmeN+hdwwUaJvLcsFFQ8iWVF1GAK1yB0BWi0w==
+  dependencies:
+    quickselect "^2.0.0"
 
 react-circular-progressbar@^2.0.4:
   version "2.1.0"
@@ -1741,6 +1856,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 tsconfig-paths@^3.14.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz#ba0734599e8ea36c862798e920bcf163277b137a"
@@ -1796,6 +1916,19 @@ v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"

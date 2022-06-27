@@ -13,32 +13,12 @@
     "tags": ["Design", "WordPress"],
     "filterCategory": ["web"]
   },
-  {
-    "id": 3,
-    "image": "/img/mas/03.jpg",
-    "title": "Create With Creatives",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
-  },
-  {
-    "id": 4,
-    "image": "/img/mas/04.jpg",
-    "title": "Energies of Love",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
-  },
-  {
-    "id": 5,
-    "image": "/img/mas/05.jpg",
-    "title": "See It Yourself",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["web"]
-  },
-  {
-    "id": 6,
-    "image": "/img/mas/06.jpg",
-    "title": "Blast From The Past",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
-  }
+   {
+			"id": 2,
+			"image": "/img/mas/02.jpg",
+			"title": "Through The Breaking",
+			"tags": ["Design", "WordPress"],
+			"filterCategory": ["web"]
+		}
+
 ]

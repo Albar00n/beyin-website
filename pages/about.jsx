@@ -36,7 +36,7 @@ const AboutDark = () => {
 			<AboutIntro />
 			<Services4 withPadding withOutTitle />
 			<VideoWithTestimonials />
-			<SkillsCircle subBG theme="dark" />
+			{/* <SkillsCircle subBG theme="dark" /> */}
 			<Team1 />
 			<MinimalArea />
 			<Clients1 theme="dark" />
