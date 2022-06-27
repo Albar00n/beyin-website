@@ -123,12 +123,6 @@ const NavbarFullMenu = ({ theme, lr }) => {
 										</div>
 									</li>
 									<li>
-										<div className="o-hidden">
-											<span className="link dmenu">
-												{/* <span className="nm">03.</span>Portfolio */}
-												{/* <i className="fas fa-angle-right"></i> */}
-											</span>
-										</div>
 										<div className="sub-menu">
 											<ul>
 												<li>
