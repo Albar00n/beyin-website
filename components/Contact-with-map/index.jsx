@@ -89,23 +89,23 @@ const ContactWithMap = () => {
 													{/*  */}
 													<label style={{borderButtom:'1px solid'}}>LOOKING FOR:</label>
 													<div
-														class="row-sm-12 mb-9 bg-dark"
+														className="row-sm-12 mb-9 bg-dark"
 														style={{
 															width: "100%",
 															height: "100%",
 															overflow: "scroll",
 														}}
 													>
-														<div class="col-1 ">
-															<div class="form-check m-1 ">
+														<div className="col-1 ">
+															<div className="form-check m-1 ">
 																<input
-																	class="form-check-input"
+																	className="form-check-input"
 																	type="checkbox"
 																	id="branding"
 																/>
 																<label
-																	class="form-check-label ml-2 "
-																	for="#branding"
+																	className="form-check-label ml-2 "
+																	htmlFor="#branding"
 																	style={{
 																		color: "#545454",
 																		width: "110px",
@@ -115,15 +115,15 @@ const ContactWithMap = () => {
 																</label>
 															</div>
 
-															<div class="form-check m-1">
+															<div className="form-check m-1">
 																<input
-																	class="form-check-input"
+																	className="form-check-input"
 																	type="checkbox"
 																	id="web_design"
 																/>
 																<label
-																	class="form-check-label ml-2"
-																	for="#web_design"
+																	className="form-check-label ml-2"
+																	htmlFor="#web_design"
 																	style={{
 																		color: "#545454",
 																		width: "110px",
@@ -133,15 +133,15 @@ const ContactWithMap = () => {
 																</label>
 															</div>
 
-															<div class="form-check m-1">
+															<div className="form-check m-1">
 																<input
-																	class="form-check-input"
+																	className="form-check-input"
 																	type="checkbox"
 																	id="web_development"
 																/>
 																<label
-																	class="form-check-label ml-2"
-																	for="#web_development"
+																	className="form-check-label ml-2"
+																	htmlFor="#web_development"
 																	style={{
 																		color: "#545454",
 																		width: "150px",
@@ -150,15 +150,15 @@ const ContactWithMap = () => {
 																	Web Development
 																</label>
 															</div>
-															<div class="form-check m-1">
+															<div className="form-check m-1">
 																<input
-																	class="form-check-input"
+																	className="form-check-input"
 																	type="checkbox"
 																	id="e_commerce"
 																/>
 																<label
-																	class="form-check-label ml-2"
-																	for="#e_commerce"
+																	className="form-check-label ml-2"
+																	htmlFor="#e_commerce"
 																	style={{
 																		color: "#545454",
 																		width: "110px",
