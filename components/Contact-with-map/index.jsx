@@ -87,7 +87,9 @@ const ContactWithMap = () => {
 												</div>
 												<div className="form-group">
 													{/*  */}
-													<label style={{borderButtom:'1px solid'}}>LOOKING FOR:</label>
+													<label style={{ borderButtom: "1px solid" }}>
+														LOOKING FOR:
+													</label>
 													<div
 														className="row-sm-12 mb-9 bg-dark"
 														style={{
@@ -247,7 +249,7 @@ const ContactWithMap = () => {
 			</section>
 			<div className="map" id="ieatmaps">
 				<iframe
-					src="https://thriving-wisp-2343a2.netlify.app/"
+					src="https://earth-gl.vercel.app/"
 					style={{ border: 0 }}
 					allowFullScreen=""
 					loading="lazy"
