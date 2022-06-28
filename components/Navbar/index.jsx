@@ -9,6 +9,7 @@ import {
 //   handleSearch,
 } from "../../common/navbar";
 
+
 const Navbar = ({ lr, nr, theme }) => {
   React.useEffect(() => {
     // handleSearch();
@@ -22,10 +23,10 @@ const Navbar = ({ lr, nr, theme }) => {
 		>
 			<div className="container">
 				<Link href="/">
-					<a className="logo">
+					<a>
 						{theme ? (
 							theme === "themeL" ? (
-								<img ref={lr} src={`${appData.darkLogo}`} alt="logo" />
+								<img ref={lr}  alt="logo" />
 							) : (
 								<img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
 							)

@@ -36,6 +36,7 @@ const ContactWithMap = () => {
 										email: "",
 										message: "",
 										price: "",
+										phone: "",
 									}}
 									onSubmit={async (values) => {
 										await sendMessage(500);
@@ -48,7 +49,8 @@ const ContactWithMap = () => {
 										values.name = "";
 										values.email = "";
 										values.message = "";
-										values.price;
+										values.price = "";
+										values.phone = "";
 										// clear message
 										setTimeout(() => {
 											messageRef.current.innerText = "";
@@ -86,14 +88,19 @@ const ContactWithMap = () => {
 													)}
 												</div>
 												<div className="form-group">
+													<label htmlFor="#form_phone">Phone</label>
+													<Field
+														id="form_phone"
+														type="text"
+														name="phone"
+														placeholder="Your Phone"
+														required="required"
+													/>
+												</div>
+												<div className="form-group">
 													{/*  */}
-													<label>
-														LOOKING FOR:
-													</label>
-													<div
-														className="row-sm-12 mb-9"
-
-													>
+													<label>LOOKING FOR:</label>
+													<div className="row-sm-12 mb-9">
 														<div className="col-1 ">
 															<div className="form-check m-1 ">
 																<input

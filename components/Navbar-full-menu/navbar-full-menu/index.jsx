@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import React from "react";
 import Split from "../../Split";
 import Link from "next/link";
@@ -16,7 +16,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 				className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
 			>
 				<div className="container-fluid">
-					<div className="logo">
+					<div>
 						<Link href="/">
 							<a>
 								{theme ? (
@@ -31,7 +31,6 @@ const NavbarFullMenu = ({ theme, lr }) => {
 							</a>
 						</Link>
 					</div>
-					<div></div>
 					<div className="menu-icon">
 						<span className="icon">
 							<i></i>
@@ -45,7 +44,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 					</div>
 				</div>
 			</div>
-
+			<div className="blur"> </div>
 			<div className="hamenu">
 				<div className="container">
 					<div className="row">
@@ -54,190 +53,35 @@ const NavbarFullMenu = ({ theme, lr }) => {
 								<ul className="main-menu">
 									<li>
 										<div className="o-hidden">
-											<Link href="/">
-												<a className="link">
+											<Link href="/works/works-dark">
+												<a className="sub-link">
 													<span className="nm">01.</span>Home
 												</a>
 											</Link>
-										</div>
-										<div className="sub-menu">
-											<ul>
-												<li>
-													<div className="o-hidden">
-														<span className="sub-link back">
-															<i className="pe-7s-angle-left"></i> Go Back
-														</span>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/">
-															<a className="sub-link">
-																<span className="nm">01.</span>Main Home
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/home/home2-dark">
-															<a className="sub-link">
-																<span className="nm">02.</span>Creative Studio
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/home/home3-dark">
-															<a className="sub-link">
-																<span className="nm">03.</span> Business Startup
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/home/home4-dark">
-															<a className="sub-link">
-																<span className="nm">04.</span>One Page
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/home/home5-dark">
-															<a className="sub-link">
-																{/* <span className="nm">05.</span>Freelancer */}
-															</a>
-														</Link>
-													</div>
-												</li>
-											</ul>
 										</div>
 									</li>
 									<li>
 										<div className="o-hidden">
 											<Link href="/about">
-												<a className="link">
+												<a className="sub-link">
 													<span className="nm">02.</span>About Us
 												</a>
 											</Link>
 										</div>
 									</li>
 									<li>
-										<div className="sub-menu">
-											<ul>
-												<li>
-													<div className="o-hidden">
-														<span className="sub-link back">
-															<i className="pe-7s-angle-left"></i> Go Back
-														</span>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/works/works-dark">
-															<a className="sub-link">
-																<span className="nm">01.</span>Mouse Info
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/works2/works2-dark">
-															<a className="sub-link">
-																<span className="nm">02.</span>Masonry 3 Columns
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/works3/works3-dark">
-															<a className="sub-link">
-																<span className="nm">03.</span>Masonry 2 Columns
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/works4/works4-dark">
-															<a className="sub-link">
-																<span className="nm">04.</span>Pinterest List
-															</a>
-														</Link>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</li>
-
-									<li>
 										<div className="o-hidden">
-											<Link href="/projects/porjects">
+											<Link href="/works/works-dark">
 												<a className="sub-link">
 													<span className="nm">03.</span>Projects
 												</a>
 											</Link>
 										</div>
-
-										<div className="sub-menu">
-											<ul>
-												<li>
-													<div className="o-hidden">
-														<span className="sub-link back">
-															<i className="pe-7s-angle-left"></i> Go Back
-														</span>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/showcase/showcase-dark">
-															<a className="sub-link">
-																<span className="nm">01.</span>Full Screen
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/showcase2/showcase2-dark">
-															<a className="sub-link">
-																<span className="nm">02.</span>Creative Carousel
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/showcase3/showcase3-dark">
-															<a className="sub-link">
-																<span className="nm">03.</span>Radius Carousel
-															</a>
-														</Link>
-													</div>
-												</li>
-												<li>
-													<div className="o-hidden">
-														<Link href="/showcase4/showcase4-dark">
-															<a className="sub-link">
-																<span className="nm">04.</span>Columns Carousel
-															</a>
-														</Link>
-													</div>
-												</li>
-											</ul>
-										</div>
 									</li>
-
 									<li>
 										<div className="o-hidden">
-											<Link href="/contact">
-												<a className="link">
+											<Link href="/works/works-dark">
+												<a className="sub-link">
 													<span className="nm">04.</span>Contact
 												</a>
 											</Link>
@@ -273,4 +117,12 @@ const NavbarFullMenu = ({ theme, lr }) => {
 	);
 };
 
+
+
+
+
+
+
 export default NavbarFullMenu;
+
+	// <Link href="/projects/projects/">
