@@ -87,16 +87,12 @@ const ContactWithMap = () => {
 												</div>
 												<div className="form-group">
 													{/*  */}
-													<label style={{ borderButtom: "1px solid" }}>
+													<label>
 														LOOKING FOR:
 													</label>
 													<div
-														className="row-sm-12 mb-9 bg-dark"
-														style={{
-															width: "100%",
-															height: "100%",
-															overflow: "scroll",
-														}}
+														className="row-sm-12 mb-9"
+
 													>
 														<div className="col-1 ">
 															<div className="form-check m-1 ">
