@@ -1,19 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
 
+const userData = [
+	{ name: "Jeevan" },
+	{ name: "Manish" },
+	{ name: "Prince" },
+	{ name: "Arti" },
+	{ name: "rahul" },
+];
+
 const ContactWithMap = () => {
-  const messageRef = React.useRef(null);
-  function validateEmail(value) {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
-    }
-    return error;
-  }
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
-  return (
+	const messageRef = React.useRef(null);
+	function validateEmail(value) {
+		let error;
+		if (!value) {
+			error = "Required";
+		} else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
+			error = "Invalid email address";
+		}
+		return error;
+	}
+	const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+	return (
 		<>
 			<section className="contact section-padding">
 				<div className="container">
@@ -53,22 +61,24 @@ const ContactWithMap = () => {
 
 											<div className="controls">
 												<div className="form-group">
+													<label htmlFor="#form_name">FULL NAME</label>
 													<Field
 														id="form_name"
 														type="text"
 														name="name"
-														placeholder="FULL NAME"
+														placeholder="Your Name"
 														required="required"
 													/>
 												</div>
 
 												<div className="form-group">
+													<label htmlFor="#form_email">EMAIL ADDRESS</label>
 													<Field
 														validate={validateEmail}
 														id="form_email"
 														type="email"
 														name="email"
-														placeholder="EMAIL ADDRESS"
+														placeholder="Your email"
 														required="required"
 													/>
 													{errors.email && touched.email && (
@@ -76,16 +86,94 @@ const ContactWithMap = () => {
 													)}
 												</div>
 												<div className="form-group">
-													<h6 className="form-group">LOOKING FOR:</h6>
-													<select>
-														<option>Branding</option>
-														<option>WEb Design</option>
-														<option>Web Development</option>
-														<option>E-Commorce</option>
-													</select>
+													{/*  */}
+													<label style={{borderButtom:'1px solid'}}>LOOKING FOR:</label>
+													<div
+														class="row-sm-12 mb-9 bg-dark"
+														style={{
+															width: "100%",
+															height: "100%",
+															overflow: "scroll",
+														}}
+													>
+														<div class="col-1 ">
+															<div class="form-check m-1 ">
+																<input
+																	class="form-check-input"
+																	type="checkbox"
+																	id="branding"
+																/>
+																<label
+																	class="form-check-label ml-2 "
+																	for="#branding"
+																	style={{
+																		color: "#545454",
+																		width: "110px",
+																	}}
+																>
+																	Branding
+																</label>
+															</div>
+
+															<div class="form-check m-1">
+																<input
+																	class="form-check-input"
+																	type="checkbox"
+																	id="web_design"
+																/>
+																<label
+																	class="form-check-label ml-2"
+																	for="#web_design"
+																	style={{
+																		color: "#545454",
+																		width: "110px",
+																	}}
+																>
+																	Web Design
+																</label>
+															</div>
+
+															<div class="form-check m-1">
+																<input
+																	class="form-check-input"
+																	type="checkbox"
+																	id="web_development"
+																/>
+																<label
+																	class="form-check-label ml-2"
+																	for="#web_development"
+																	style={{
+																		color: "#545454",
+																		width: "150px",
+																	}}
+																>
+																	Web Development
+																</label>
+															</div>
+															<div class="form-check m-1">
+																<input
+																	class="form-check-input"
+																	type="checkbox"
+																	id="e_commerce"
+																/>
+																<label
+																	class="form-check-label ml-2"
+																	for="#e_commerce"
+																	style={{
+																		color: "#545454",
+																		width: "110px",
+																	}}
+																>
+																	E-Commerce
+																</label>
+															</div>
+														</div>
+													</div>
+
+													{/*  */}
 												</div>
 												<div className="form-group">
-													<h6>YOUR BUDCET: </h6>
+													<label htmlFor="#from_price">YOUR BUDCET: </label>
 													<Field
 														id="form_price"
 														type="text"
@@ -96,11 +184,12 @@ const ContactWithMap = () => {
 												</div>
 
 												<div className="form-group">
+													<labe htmlFor="#form_message">BRIEF:</labe>
 													<Field
 														as="textarea"
 														id="form_message"
 														name="message"
-														placeholder="BRIEF"
+														placeholder="Place go into as much detail as possible"
 														rows="4"
 														required="required"
 													/>
