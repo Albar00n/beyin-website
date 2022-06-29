@@ -50,7 +50,7 @@ const IntroWithSlider2 = () => {
               swiper.params.pagination.el = paginationRef.current;
             }}
             onSwiper={(swiper) => {
-              setTimeout((i) => {
+              setTimeout(() => {
                 for (var i = 0; i < swiper.slides.length; i++) {
                   swiper.slides[i].childNodes[0].setAttribute(
                     "data-swiper-parallax",
@@ -60,6 +60,7 @@ const IntroWithSlider2 = () => {
 
                 swiper.params.navigation.prevEl = navigationPrevRef.current;
                 swiper.params.navigation.nextEl = navigationNextRef.current;
+								// swiper.params.navigation.nextEl = navigationNextRef.current;
 
                 swiper.params.pagination.el = paginationRef.current;
 

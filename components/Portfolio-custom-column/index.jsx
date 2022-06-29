@@ -74,7 +74,7 @@ const PortfolioCustomColumn = ({
 								} items ${item.filterCategory} wow fadeInUp ${
 									item.id === 3 && column == 3
 										? "lg-mr"
-										: item.id === 1 && column == 2
+										: item.id === 1 && column == 1
 										? "lg-mr"
 										: ""
 								}`}

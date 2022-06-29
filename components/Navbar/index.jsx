@@ -23,7 +23,7 @@ const Navbar = ({ lr, nr, theme }) => {
 		>
 			<div className="container">
 				<Link href="/">
-					<a>
+					<a className="logo">
 						{theme ? (
 							theme === "themeL" ? (
 								<img ref={lr}  alt="logo" />
