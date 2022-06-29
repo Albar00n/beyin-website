@@ -1690,7 +1690,7 @@ body {
 }
 .navbar .logo {
     /* background-color: red; */
-  /* width: 100px; */
+  width: 100px;
 }
 
 .nav-scroll {
@@ -1731,7 +1731,8 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  width: 50px;
+  width: 60px;
+
   /* background-color: red; */
 }
 .topnav .menu-icon {
@@ -5670,7 +5671,8 @@ position: fixed;
   }
   .navbar .logo {
     margin: 15px;
-    width: 50px;
+    width: 90px;
+    /* background: red; */
 
   }
   .nav-scroll .navbar-collapse .nav-link,
@@ -5908,7 +5910,7 @@ position: fixed;
     padding-bottom: 80px;
   }
   .container {
-    max-width: 540px;
+    /* max-width: 540px; */
   }
   h1 {
     font-size: 35px;
@@ -5945,7 +5947,8 @@ position: fixed;
     padding: 0 30px;
   }
   .topnav .logo {
-    width: 40px;
+    width: 70px;
+    /* flex-grow: 1; */
   }
   .works-header {
     min-height: 60vh;

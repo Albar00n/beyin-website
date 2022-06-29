@@ -26,7 +26,7 @@ const Navbar = ({ lr, nr, theme }) => {
 					<a className="logo">
 						{theme ? (
 							theme === "themeL" ? (
-								<img ref={lr}  alt="logo" />
+								<img ref={lr} alt="logo" />
 							) : (
 								<img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
 							)
@@ -51,57 +51,71 @@ const Navbar = ({ lr, nr, theme }) => {
 					</span>
 				</button>
 
-				<div className="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul className="navbar-nav ml-auto">
-						<li className="nav-item">
-							<Link href="/">
-								<a className="nav-link">Home</a>
-							</Link>
-						</li>
+				<div
+					className="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
 
-						<li className="nav-item">
-							<Link href="/projects/projects">
-								<a className="nav-link">Our projects</a>
-							</Link>
-						</li>
-						<li className="nav-item ">
-							<Link href="/about">
-								<a className="nav-link">About Us</a>
-							</Link>
-						</li>
-						<li className="nav-item dropdown">
-							<Link href="/contact">
-								<a className="nav-link">Start a Project</a>
-							</Link>
-						</li>
-						<li className="nav-item">
-							<Link href="/new/news">
-								<a className="nav-link">News</a>
-							</Link>
-						</li>
-					</ul>
-					{/* <div className="search">
-						<span className="icon pe-7s-search cursor-pointer"></span>
-						<div className="search-form text-center custom-font">
-							<Formik
-								initialValues={{
-									search: "",
-								}}
-								onSubmit={async (values) => {
-									alert(JSON.stringify(values, null, 2));
-									// Reset the values
-									values.search = "";
-								}}
-							>
-								{({ errors, touched }) => (
-									<Form>
-										<Field type="text" name="search" placeholder="Search" />
-									</Form>
-								)}
-							</Formik>
-							<span className="close pe-7s-close cursor-pointer"></span>
-						</div>
-					</div> */}
+						<ul className="navbar-nav ml-auto">
+							<li className="nav-item">
+								<Link href="/">
+									<a className="nav-link">
+										Home
+									</a>
+								</Link>
+							</li>
+
+							<li className="nav-item">
+								<Link href="/projects/projects">
+									<a className="nav-link">
+									 Our projects
+									</a>
+								</Link>
+							</li>
+							<li className="nav-item ">
+								<Link href="/about">
+									<a className="nav-link">
+									 About Us
+									</a>
+								</Link>
+							</li>
+							<li className="nav-item dropdown">
+								<Link href="/contact">
+									<a className="nav-link">
+									 Start a
+										Project
+									</a>
+								</Link>
+							</li>
+							<li className="nav-item">
+								<Link href="/new/news">
+									<a className="nav-link">
+News
+									</a>
+								</Link>
+							</li>
+						</ul>
+						{/* <div className="col-lg-3 col-md-4">
+							<div className="cont-info">
+								<div className="item">
+									<h6>Phone :</h6>
+									<p>+03 762-2367-723</p>
+								</div>
+								<div className="item">
+									<h6>Address :</h6>
+									<p>
+										541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+									</p>
+								</div>
+								<div className="item">
+									<h6>Email :</h6>
+									<p>
+										<a href="#0">Avo_website@gmail.com</a>
+									</p>
+								</div>
+							</div>
+						</div> */}
+
 				</div>
 			</div>
 		</nav>
