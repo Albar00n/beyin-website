@@ -104,7 +104,7 @@ const PortfolioCustomColumn = ({
 					</div>
 				</div>
 			</div>
-			<dib>
+			<div>
 				<div
 					className="container"
 					style={{
@@ -124,7 +124,7 @@ const PortfolioCustomColumn = ({
 						</a>
 					</Link>
 				</div>
-			</dib>
+			</div>
 		</section>
 	);
 };

@@ -8,8 +8,9 @@ import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
+
 	return (
-		<>
+		<div>
 			<Head>
 				<title>Beyin</title>
 				<link rel="icon" href="/img/favicon.ico" />
@@ -32,7 +33,7 @@ function MyApp({ Component, pageProps }) {
 				src="/js/isotope.pkgd.min.js"
 			></Script>
 			<Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script>
-		</>
+		</div>
 	);
 }
 

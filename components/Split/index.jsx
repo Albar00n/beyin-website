@@ -5,7 +5,7 @@ class Split extends React.Component {
 
   split = () => {
     if (this.target.current) {
-      // Splitting({ target: this.target.current });
+      Splitting({ target: this.target.current });
     }
   };
 

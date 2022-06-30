@@ -11,7 +11,11 @@ import SkillsCircle from "./Skills-circle";
 // import VideoWithTestimonials from "../components/Video-with-testimonials";
 import DarkTheme from "./layouts/Dark";
 
+
 const Homepage2 = () => {
+
+
+
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -32,7 +36,7 @@ const Homepage2 = () => {
   }, [navbarRef]);
 
   return (
-    <DarkTheme>
+    <DarkTheme >
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider2 />
       <BlcSec />
@@ -42,6 +46,7 @@ const Homepage2 = () => {
       <PortfolioCustomColumn column={3} filterPosition="center" />
       <Clients1 theme="dark" subBG />
       <CallToAction />
+
       <Footer />
     </DarkTheme>
   );

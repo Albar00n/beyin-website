@@ -60,7 +60,7 @@ const IntroWithSlider2 = () => {
 
                 swiper.params.navigation.prevEl = navigationPrevRef.current;
                 swiper.params.navigation.nextEl = navigationNextRef.current;
-								// swiper.params.navigation.nextEl = navigationNextRef.current;
+
 
                 swiper.params.pagination.el = paginationRef.current;
 
