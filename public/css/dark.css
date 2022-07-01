@@ -106,7 +106,7 @@ span:hover {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 .custom-font {
@@ -5665,7 +5665,7 @@ position: fixed;
   .navbar .navbar-collapse {
 
 
-
+background-color: red;
 
      /* overflow: auto; */
     background: #11141b;

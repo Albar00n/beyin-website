@@ -23,7 +23,7 @@ const Navbar = ({ lr, nr, theme }) => {
 			}`}
 		>
 			<div className="container">
-				<Link href="/">
+				{/* <Link href="/">
 					<a className="logo">
 						{theme ? (
 							theme === "themeL" ? (
@@ -35,9 +35,9 @@ const Navbar = ({ lr, nr, theme }) => {
 							<img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
 						)}
 					</a>
-				</Link>
+				</Link> */}
 
-				<button
+				{/* <button
 					className="navbar-toggler"
 					type="button"
 					onClick={handleMobileDropdown}
@@ -50,7 +50,7 @@ const Navbar = ({ lr, nr, theme }) => {
 					<span className="icon-bar">
 						<i className="fas fa-bars"></i>
 					</span>
-				</button>
+				</button> */}
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul className="navbar-nav ml-auto">
@@ -82,7 +82,7 @@ const Navbar = ({ lr, nr, theme }) => {
 								</li>
 							</ul>
 
-						<div className="col-lg-3 col-md-4 infor">
+						{/* <div className="col-lg-3 col-md-4 infor">
 							<div className="cont-info">
 								<div className="item">
 									<h6>Phone :</h6>
@@ -101,7 +101,7 @@ const Navbar = ({ lr, nr, theme }) => {
 									</p>
 								</div>
 							</div>
-						</div>
+						</div> */}
 				</div>
 			</div>
 		</nav>

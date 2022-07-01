@@ -98,9 +98,7 @@ body .slick-dots li button {
       /* position: fixed; */
 
   }
-.navbar-nav{
 
-}
   .navbar .navbar-collapse.show-with-trans {
     opacity: .9;
     padding: 10px 15px;
@@ -108,8 +106,7 @@ body .slick-dots li button {
     width: 100%;
     transition: all 0.3s linear;
 
-display: grid;
-grid-template-columns: 1fr 1fr;
+
 
 
 
