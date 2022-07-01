@@ -2,6 +2,7 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import Link from "next/link";
+
 import appData from "../data/app.json";
 import {
   handleDropdown,
@@ -51,51 +52,37 @@ const Navbar = ({ lr, nr, theme }) => {
 					</span>
 				</button>
 
-				<div
-					className="collapse navbar-collapse"
-					id="navbarSupportedContent"
-				>
+				<div className="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul className="navbar-nav ml-auto">
+								<li className="nav-item">
+									<Link href="/">
+										<a className="nav-link">Home</a>
+									</Link>
+								</li>
 
-						<ul className="navbar-nav ml-auto">
-							<li className="nav-item">
-								<Link href="/">
-									<a className="nav-link">
-										Home
-									</a>
-								</Link>
-							</li>
+								<li className="nav-item">
+									<Link href="/projects/projects">
+										<a className="nav-link">Our projects</a>
+									</Link>
+								</li>
+								<li className="nav-item ">
+									<Link href="/about">
+										<a className="nav-link">About Us</a>
+									</Link>
+								</li>
+								<li className="nav-item dropdown">
+									<Link href="/contact">
+										<a className="nav-link">Start a Project</a>
+									</Link>
+								</li>
+								<li className="nav-item">
+									<Link href="/new/news">
+										<a className="nav-link">News</a>
+									</Link>
+								</li>
+							</ul>
 
-							<li className="nav-item">
-								<Link href="/projects/projects">
-									<a className="nav-link">
-									 Our projects
-									</a>
-								</Link>
-							</li>
-							<li className="nav-item ">
-								<Link href="/about">
-									<a className="nav-link">
-									 About Us
-									</a>
-								</Link>
-							</li>
-							<li className="nav-item dropdown">
-								<Link href="/contact">
-									<a className="nav-link">
-									 Start a
-										Project
-									</a>
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link href="/new/news">
-									<a className="nav-link">
-News
-									</a>
-								</Link>
-							</li>
-						</ul>
-						{/* <div className="col-lg-3 col-md-4">
+						<div className="col-lg-3 col-md-4 infor">
 							<div className="cont-info">
 								<div className="item">
 									<h6>Phone :</h6>
@@ -114,8 +101,7 @@ News
 									</p>
 								</div>
 							</div>
-						</div> */}
-
+						</div>
 				</div>
 			</div>
 		</nav>

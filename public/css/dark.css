@@ -1132,8 +1132,7 @@ body {
 }
 @media screen and (max-width:800px) {
 .mouse-cursor { display: none;}
-/* .cursor-inner {display: none;} */
-/* .cursor-outer{display: none;} */
+
 }
 
 /* ====================== [ End Cursor Style ] ====================== */
@@ -1692,8 +1691,9 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-    /* background-color: red; */
+
   width: 100px;
+
 }
 
 .nav-scroll {
@@ -5582,10 +5582,21 @@ position: fixed;
 .footer-half .copyrights p a {
   color: var(--color-green);
 }
+ .infor {
+
+   display: none;
+ }
 
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+
+  .infor {
+    /* background-color: red; */
+    display: inline-block;
+
+  }
+
   .md-mb10 {
     margin-bottom: 10px;
   }

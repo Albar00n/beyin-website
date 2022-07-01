@@ -44,7 +44,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 					</div>
 				</div>
 			</div>
-			{/* <div className="blur"> </div> */}
+			
 			<div className="hamenu">
 				<div className="container">
 					<div className="row">

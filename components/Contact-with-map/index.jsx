@@ -1,13 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
 
-const userData = [
-	{ name: "Jeevan" },
-	{ name: "Manish" },
-	{ name: "Prince" },
-	{ name: "Arti" },
-	{ name: "rahul" },
-];
 
 const ContactWithMap = () => {
 	const messageRef = React.useRef(null);
