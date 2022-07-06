@@ -44,6 +44,8 @@ body {
 img {
   width: 100%;
   height: auto;
+  /* margin: -9px 0px; */
+  /* background-color: red; */
 }
 
 span,
@@ -1723,12 +1725,16 @@ body {
   -webkit-transition: all 0.7s;
   -o-transition: all 0.7s;
   transition: all 0.7s;
+
+
 }
 .topnav .container,
 .topnav .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .topnav .container-fluid {
   padding: 0 50px;
@@ -1736,11 +1742,11 @@ body {
 .topnav .logo {
   width: 60px;
 
-  /* background-color: red; */
 }
 .topnav .menu-icon {
   margin-left: auto;
   cursor: pointer;
+
 }
 .topnav .menu-icon:hover .text .char {
   -webkit-animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
@@ -5665,21 +5671,22 @@ position: fixed;
   .navbar .navbar-collapse {
 
 
-background-color: red;
+
 
      /* overflow: auto; */
     background: #11141b;
     text-align: left;
             color: white;
             font-weight: bold;
-            border: 1px solid #6a6a6a;
+            /* border: 1px solid #6a6a6a; */
 
-            z-index: 2;
+            /* z-index: 2; */
             width: 100%;
             /* padding: 20px; */
 
 
   }
+
   .navbar .nav-link {
     margin: 10px auto !important;
   }

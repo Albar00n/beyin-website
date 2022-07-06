@@ -1,4 +1,3 @@
-
 import React from "react";
 import Split from "../../Split";
 import Link from "next/link";
@@ -6,10 +5,10 @@ import appData from "../../data/app.json";
 import handleFullScreenNavbar from "../../../common/handleFullScreenNavbar";
 
 const NavbarFullMenu = ({ theme, lr }) => {
-  React.useEffect(() => {
-    handleFullScreenNavbar();
-  }, []);
-  return (
+	React.useEffect(() => {
+		handleFullScreenNavbar();
+	}, []);
+	return (
 		<>
 			<div
 				id="navi"
@@ -43,8 +42,48 @@ const NavbarFullMenu = ({ theme, lr }) => {
 						</Split>
 					</div>
 				</div>
+
+				{/*  */}
+
+				<div>
+					<div>
+						<ul className="navbar-nav ml-auto conno">
+							<li className="nav-item no">
+								<Link href="/">
+									<a className="nav-link">Home</a>
+								</Link>
+							</li>
+
+							<li className="nav-item no">
+								<Link href="/projects/projects/">
+									<a className="nav-link">Our projects</a>
+								</Link>
+							</li>
+							<li className="nav-item  no">
+								<Link href="/about">
+									<a className="nav-link">About Us</a>
+								</Link>
+							</li>
+							<li className="nav-item dropdown no">
+								<Link href="/contact">
+									<a className="nav-link">Start a Project</a>
+								</Link>
+							</li>
+							<li className="nav-item no">
+								<Link href="/new/news">
+									<a className="nav-link">News</a>
+								</Link>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				{/*  */}
 			</div>
-			
+			{/*  */}
+
+			{/*  */}
+
 			<div className="hamenu">
 				<div className="container">
 					<div className="row">
@@ -53,7 +92,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 								<ul className="main-menu">
 									<li>
 										<div className="o-hidden">
-											<Link href="/works/works-dark">
+											<Link href="/">
 												<a className="sub-link">
 													<span className="nm">01.</span>Home
 												</a>
@@ -117,12 +156,6 @@ const NavbarFullMenu = ({ theme, lr }) => {
 	);
 };
 
-
-
-
-
-
-
 export default NavbarFullMenu;
 
-	// <Link href="/projects/projects/">
+// <Link href="/projects/projects/">

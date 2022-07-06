@@ -14,44 +14,24 @@ import NavbarFullMenu from "../components/Navbar-full-menu/navbar-full-menu"
 
 
 const Homepage2 = () => {
-
-
-
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
-
-  React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 400) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 400) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [navbarRef]);
+;
 
   return (
-    <DarkTheme >
-      <NavbarFullMenu  />
-      <Navbar nr={navbarRef} lr={logoRef} />
-      <IntroWithSlider2 />
-      <BlcSec />
-      <Services2 />
-      {/* <VideoWithTestimonials /> */}
-      {/* <SkillsCircle theme="dark" subBG /> */}
-      <PortfolioCustomColumn column={3} filterPosition="center" />
-      <Clients1 theme="dark" subBG />
-      <CallToAction />
+		<DarkTheme>
+			<NavbarFullMenu  />
 
-      <Footer />
-    </DarkTheme>
-  );
+			<IntroWithSlider2 />
+			<BlcSec />
+			<Services2 />
+			{/* <VideoWithTestimonials /> */}
+			{/* <SkillsCircle theme="dark" subBG /> */}
+			<PortfolioCustomColumn column={3} filterPosition="center" />
+			<Clients1 theme="dark" subBG />
+			<CallToAction />
+
+			<Footer />
+		</DarkTheme>
+	);
 };
 
 export default Homepage2;

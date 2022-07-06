@@ -1,31 +1,14 @@
 import React from "react";
 import DarkTheme from "../../components/layouts/Dark";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navbar-full-menu/navbar-full-menu/index";
 import BlogStanderd from "../../components/Blog-standerd";
 import Footer from "../../components/Footer";
 
 const BlogDark = () => {
-	const navbarRef = React.useRef(null);
-	const logoRef = React.useRef(null);
-	React.useEffect(() => {
-		var navbar = navbarRef.current,
-			logo = logoRef.current;
-		if (window.pageYOffset > 300) {
-			navbar.classList.add("nav-scroll");
-		} else {
-			navbar.classList.remove("nav-scroll");
-		}
-		window.addEventListener("scroll", () => {
-			if (window.pageYOffset > 300) {
-				navbar.classList.add("nav-scroll");
-			} else {
-				navbar.classList.remove("nav-scroll");
-			}
-		});
-	}, [navbarRef]);
+
 	return (
 		<DarkTheme>
-			<Navbar nr={navbarRef} lr={logoRef} />
+			<Navbar />
 			<section className="page-header">
 				<div className="container">
 					<div className="row">
