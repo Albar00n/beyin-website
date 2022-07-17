@@ -27,12 +27,18 @@ const PortfolioCustomColumn = ({
 				<div className="container">
 					<div className="sec-head custom-font">
 						<h6 className="wow fadeIn" data-wow-delay=".5s">
-							Portfolio
+							Our Portfolio
 						</h6>
 						<Split>
 							<h3 className="wow words chars splitting" data-splitting>
-								Our Works.
+								Portfolio
 							</h3>
+							<p style={{width:'90%'}}>
+								We are a company that stands for quality and excellence. We take
+								pride in our work and always aim to deliver the best results for
+								our clients. With us, you can be sure that your getting the
+								best possible value for your investment.
+							</p>
 						</Split>
 						<span className="tbg text-right">Portfolio</span>
 					</div>

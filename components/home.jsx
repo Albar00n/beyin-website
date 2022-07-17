@@ -3,6 +3,7 @@ import BlcSec from "./Blc-sec";
 import CallToAction from "./Call-to-action";
 import Clients1 from "./Clients1";
 import Footer from "./Footer";
+import AboutIntro from "./About-intro/index"
 import IntroWithSlider2 from "./Intro-with-slider2";
 import Navbar from "../components/Navba/index";
 import PortfolioCustomColumn from "./Portfolio-custom-column";
@@ -41,6 +42,7 @@ const Homepage2 = () => {
 			<IntroWithSlider2 />
 			<BlcSec />
 			<Services2 />
+			<AboutIntro  />
 			{/* <VideoWithTestimonials /> */}
 			{/* <SkillsCircle theme="dark" subBG /> */}
 			<PortfolioCustomColumn column={3} filterPosition="center" />

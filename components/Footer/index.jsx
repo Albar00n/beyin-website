@@ -59,7 +59,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-5 offset-lg-2">
+					<div className="col-lg-5 offset-lg-2 d-flex align-self-center">
 						<div>
 							<ul style={{ listStyle: "none" }}>
 								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
@@ -79,7 +79,6 @@ const Footer = () => {
 										<a>Terms and conditions</a>
 									</Link>
 								</li>
-
 								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
 									<Link href="/about">
 										<a> About us</a>
@@ -119,7 +118,7 @@ const Footer = () => {
 								)}
 							</Formik>
 						</div> */}
-						<div className="insta">
+						{/* <div className="insta">
 							<h6 className="custom-font stit simple-btn">Instagram Post</h6>
 							<div className="insta-gallary">
 								<a href="#0">
@@ -132,7 +131,7 @@ const Footer = () => {
 									<img src="/img/insta/3.jpg" alt="" />
 								</a>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<div className="copyrights text-center">
