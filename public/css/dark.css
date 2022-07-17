@@ -1135,7 +1135,12 @@ body {
   opacity: 0;
 }
 @media screen and (max-width:800px) {
-.mouse-cursor { display: none;}
+.mouse-cursor {
+display: none;
+}
+body{
+  cursor: default;
+}
 
 }
 
