@@ -69,7 +69,7 @@ const Footer = () => {
 								</li>
 
 								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
-									<Link href="">
+									<Link href="/privacy">
 										<a>Privacy policy</a>
 									</Link>
 								</li>

@@ -139,6 +139,20 @@ section.next-prog {
 section.team.section-padding {
 	overflow: hidden;
 }
+.privacy-p{
+	margin: 10px 10px;
+}
+
+.black{
+	margin: 0px 5px;
+	font-size: 20px;
+	font-weight: 800;
+	/* color: black; */
+}
+.underline{
+	margin: 0px 5px;
+	text-decoration: underline;
+}
 @media screen and (min-width:960px) {
 	#mobile{
 		display: none;

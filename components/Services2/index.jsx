@@ -37,7 +37,7 @@ const Services2 = () => {
 								Web <br /> Developments
 							</h6>
 							<div className="text-right">
-								<Link href="/about/about-dark">
+								<Link href="/about">
 									<a className="more">
 										<i className="fas fa-chevron-right"></i>
 									</a>
@@ -56,7 +56,7 @@ const Services2 = () => {
 								Mobile App <br /> development
 							</h6>
 							<div className="text-right">
-								<Link href="/about/about-dark">
+								<Link href="/about">
 									<a className="more">
 										<i className="fas fa-chevron-right"></i>
 									</a>
@@ -75,7 +75,7 @@ const Services2 = () => {
 								virtual reality Augmented <br /> reality (AR/VR)
 							</h6>
 							<div className="text-right">
-								<Link href="/about/about-dark">
+								<Link href="/about">
 									<a className="more">
 										<i className="fas fa-chevron-right"></i>
 									</a>
@@ -96,7 +96,7 @@ const Services2 = () => {
 								UI/UX <br /> design
 							</h6>
 							<div className="text-right">
-								<Link href="/about/about-dark">
+								<Link href="/about">
 									<a className="more">
 										<i className="fas fa-chevron-right"></i>
 									</a>
@@ -113,7 +113,7 @@ const Services2 = () => {
 							<span className="icon pe-7s-help2"></span>
 							<h6>3D Modeling</h6>
 							<div className="text-right">
-								<Link href="/about/about-dark">
+								<Link href="/about">
 									<a className="more">
 										<i className="fas fa-chevron-right"></i>
 									</a>
@@ -130,7 +130,7 @@ const Services2 = () => {
 							<span className="icon pe-7s-arc"></span>
 							<h6>SaaS Development</h6>
 							<div className="text-right">
-								<Link href="/about/about-dark">
+								<Link href="/about">
 									<a className="more">
 										<i className="fas fa-chevron-right"></i>
 									</a>
