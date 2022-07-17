@@ -1,6 +1,7 @@
 import React from "react";
 import DarkTheme from "../../components/layouts/Dark";
-// import Navbar from "../../components/Navbar-full-menu/navbar-full-menu/index";
+import Navbar from "../../components/Navba/index";
+import NavbarFullMenu from "../../components/Navbar-full/navbar-full-menu/index";
 import BlogStanderd from "../../components/Blog-standerd";
 import Footer from "../../components/Footer";
 
@@ -8,7 +9,8 @@ const BlogDark = () => {
 
 	return (
 		<DarkTheme>
-			{/* <Navbar /> */}
+			<Navbar />
+			<NavbarFullMenu  />
 			<section className="page-header">
 				<div className="container">
 					<div className="row">

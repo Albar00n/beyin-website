@@ -1,7 +1,8 @@
 import React from "react";
 import BlogDetails from "../../components/Blog-details";
 import Footer from "../../components/Footer";
-// import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navba/index";
+import NavbarFullMenu from "../../components/Navbar-full/navbar-full-menu/index";
 import DarkTheme from "../../components/layouts/Dark";
 
 const BlogDetailsDark = () => {
@@ -25,7 +26,8 @@ const BlogDetailsDark = () => {
 	}, [navbarRef]);
 	return (
 		<DarkTheme>
-			{/* <Navbar nr={navbarRef} lr={logoRef} /> */}
+			<Navbar nr={navbarRef} lr={logoRef} />
+			<NavbarFullMenu  />
 			<section className="page-header blg">
 				<div className="container">
 					<div className="row justify-content-center">

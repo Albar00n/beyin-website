@@ -139,4 +139,13 @@ section.next-prog {
 section.team.section-padding {
 	overflow: hidden;
 }
-
+@media screen and (min-width:960px) {
+	#mobile{
+		display: none;
+	}
+}
+@media screen and (max-width:960px) {
+	#desktop {
+		display: none;
+	}
+}

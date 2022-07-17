@@ -1,12 +1,14 @@
 import React from "react";
-// import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
+import Navbar from '../../components/Navba/index'
+import NavbarFullMenu from "../../components/Navbar-full/navbar-full-menu/index"
 import ShowcasesOneCenter from "../../components/Showcases-one-center";
 import DarkTheme from "../../components/layouts/Dark";
 
 const Showcase4Dark = () => {
 	return (
 		<DarkTheme>
-			{/* <NavbarFullMenu /> */}
+			<Navbar  />
+			<NavbarFullMenu />
 			<ShowcasesOneCenter />
 		</DarkTheme>
 	);

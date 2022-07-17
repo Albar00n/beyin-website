@@ -1,6 +1,7 @@
 import React from "react";
 import DarkTheme from "../../components/layouts/Dark";
-// import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navba/index";
+import NavbarFullMenu from "../../components/Navbar-full/navbar-full-menu/index";
 import ProjectDetails2Header from "../../components/Project-details2-header";
 import ProjectDetails2Introduction from "../../components/Project-details2-introduction";
 import ProjectDetails2Images from "../../components/Project-details2-images";
@@ -30,7 +31,8 @@ const ProjectDetails2Dark = () => {
 	}, [navbarRef]);
 	return (
 		<DarkTheme>
-			{/* <Navbar nr={navbarRef} lr={logoRef} /> */}
+			<Navbar nr={navbarRef} lr={logoRef} />
+			<NavbarFullMenu  />
 			<ProjectDetails2Header />
 			<ProjectDetails2Introduction />
 			<ProjectDetails2Images />
