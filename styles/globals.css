@@ -95,6 +95,7 @@ body .slick-dots li button {
 
 .topnav .menu-icon {
 	display: flex;
+	
 
 }
 
@@ -107,7 +108,7 @@ body .slick-dots li button {
 
 
 	.navbar .navbar-collapse.show-with-trans {
-		/* opacity: .9; */
+		opacity: .9;
 		padding: 10px 15px;
 		height: 70vh;
 		width: 100%;

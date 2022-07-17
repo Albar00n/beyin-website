@@ -5,108 +5,113 @@ import Link from "next/link";
 import appData from "../../data/app.json";
 import handleFullScreenNavbar from "../../../common/handleFullScreenNavbar";
 
-const NavbarFullMenu = ({ theme, lr }) => {
+const NavbarFullMenu = ({ theme, lr ,nr}) => {
   React.useEffect(() => {
     handleFullScreenNavbar();
   }, []);
   return (
-		<>
+		<nav>
 			<div
 				id="mobile"
-				className={`topnav navbar navbar-expand-lg change${
-					theme ? (theme === "light" ? "light" : "") : ""
+				ref={nr}
+				className={`topnav navbar  change${
+					theme === "themeL" ? "light" : ""
 				}`}
 			>
 				<div className="container">
-					<div className="logo">
-						<a href="#0">
-							{theme ? (
-								theme === "light" ? (
-									<img src={`${appData.darkLogo}`} alt="logo" />
+					{/* <div className="container"> */}
+						<div className="logo">
+							<a href="#0">
+								{theme ? (
+									theme === "themeL" ? (
+										<img src={`${appData.darkLogo}`} alt="logo" />
+									) : (
+										<img src={`${appData.lightLogo}`} alt="logo" />
+									)
 								) : (
 									<img src={`${appData.lightLogo}`} alt="logo" />
-								)
-							) : (
-								<img src={`${appData.lightLogo}`} alt="logo" />
-							)}
-						</a>
-					</div>
-					<div className="menu-icon">
-						<span className="icon">
-							<i></i>
-							<i></i>
-						</span>
-						<Split>
-							<span className="text" data-splitting>
-								<span className="menu-text">Menu</span>
+								)}
+							</a>
+						</div>
+						<div className="menu-icon">
+							<span className="icon">
+								<i></i>
+								<i></i>
 							</span>
-						</Split>
-					</div>
-				</div>
-			</div>
-
-			<div className="hamenu">
-				<div className="container">
-					<div className="row">
-						<div className="col-lg-9 col-md-8">
-							<div className="menu-links">
-								<ul className="main-menu">
-									<li>
-										<div className="o-hidden">
-											<Link href="/">
-												<a>
-													<span className="nm"></span>Home
-												</a>
-											</Link>
-										</div>
-									</li>
-									<li>
-										<div className="o-hidden">
-											<Link href="/about">
-												<a>
-													<span className="nm"></span>About us
-												</a>
-											</Link>
-										</div>
-									</li>
-									<li>
-										<div className="o-hidden">
-											<Link href="/contact">
-												<a>
-													<span className="nm"></span>Start Project
-												</a>
-											</Link>
-										</div>
-									</li>
-									<li>
-										<div className="o-hidden">
-											<Link href="/projects/projects/">
-												<a>
-													<span className="nm"></span> Our projects
-												</a>
-											</Link>
-										</div>
-									</li>
-								</ul>
-							</div>
+							<Split>
+								<span className="text" data-splitting>
+									<span className="menu-text" style={{ margin: "0px 5px" }}>
+										Menu
+									</span>
+								</span>
+							</Split>
 						</div>
-						<div className="col-lg-3 col-md-4">
-							<div className="cont-info">
-								<div className="item">
-									<h6>Phone :</h6>
-									<p>+03 762-2367-723</p>
+					{/* </div> */}
+				</div>
+
+				<div className="hamenu">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-9 col-md-8">
+								<div className="menu-links">
+									<ul className="main-menu">
+										<li>
+											<div className="o-hidden">
+												<Link href="/">
+													<a>
+														<span className="nm"></span>Home
+													</a>
+												</Link>
+											</div>
+										</li>
+										<li>
+											<div className="o-hidden">
+												<Link href="/about">
+													<a>
+														<span className="nm"></span>About us
+													</a>
+												</Link>
+											</div>
+										</li>
+										<li>
+											<div className="o-hidden">
+												<Link href="/contact">
+													<a>
+														<span className="nm"></span>Start Project
+													</a>
+												</Link>
+											</div>
+										</li>
+										<li>
+											<div className="o-hidden">
+												<Link href="/projects/projects/">
+													<a>
+														<span className="nm"></span> Our projects
+													</a>
+												</Link>
+											</div>
+										</li>
+									</ul>
 								</div>
-								<div className="item">
-									<h6>Address :</h6>
-									<p>
-										541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
-									</p>
-								</div>
-								<div className="item">
-									<h6>Email :</h6>
-									<p>
-										<a href="#0">Avo_website@gmail.com</a>
-									</p>
+							</div>
+							<div className="col-lg-3 col-md-4">
+								<div className="cont-info">
+									<div className="item">
+										<h6>Phone :</h6>
+										<p>+03 762-2367-723</p>
+									</div>
+									<div className="item">
+										<h6>Address :</h6>
+										<p>
+											541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+										</p>
+									</div>
+									<div className="item">
+										<h6>Email :</h6>
+										<p>
+											<a href="#0">Avo_website@gmail.com</a>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -116,7 +121,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 			{/*  */}
 
 			{/*  */}
-		</>
+		</nav>
 	);
 };
 

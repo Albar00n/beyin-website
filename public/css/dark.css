@@ -20,7 +20,7 @@
 
 }
 
-;
+
 
 
 * {
@@ -44,8 +44,6 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 img {
   width: 100%;
   height: auto;
-  /* margin: -9px 0px; */
-  /* background-color: red; */
 }
 
 span,
@@ -1722,21 +1720,24 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
 .topnav {
+background: #11141b;
   position: fixed;
-  background-color: #11141b;
-  background: #11141b;
-  /* top: 0;
-  left: 0; */
-  width: 100%;
-  z-index: 999999;
-  /* padding: 30px 0; */
-  color: var(--color-white);
-  -webkit-transition: all 0.7s;
-  -o-transition: all 0.7s;
-  transition: all 0.7s;
+    /* top: -20px; */
+    left: 0;
+    width: 100%;
+    z-index: 999999;
 
+    color: #fff;
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 
 }
+
+
+
+
+
 .topnav .container,
 .topnav .container-fluid {
   display: -webkit-box;
@@ -5672,27 +5673,19 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   }
   .container {
     max-width: 100%;
-    margin: 15px 10px;
+    /* margin: 15px 10px; */
   }
   .navbar {
-    min-height: 60px;
+    min-height: 40px;
   }
-   .navbar-collapse {
+    .navbar .navbar-collapse {
 
 
-
-
-     overflow: auto;
+  max-height: 340px;
+    overflow: auto;
     background: #11141b;
-    text-align: left;
-            color: white;
-            font-weight: bold;
-            /* border: 1px solid #6a6a6a; */
-
-            z-index: 2;
-            width: 100%;
-            /* padding: 20px; */
-
+    text-align: center;
+    padding: 10px 15px;
 
   }
 
@@ -5702,7 +5695,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   .navbar .logo {
     margin: 15px;
     width: 90px;
-    /* background: red; */
+
 
   }
   .nav-scroll .navbar-collapse .nav-link,
@@ -5769,6 +5762,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   }
   .slider .parallax-slider .caption.dig h1 {
     font-size: 60px;
+    text-align: center;
   }
   .slider .parallax-slider .caption.dig h1 .tline {
     margin-left: 0;
@@ -5887,6 +5881,11 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   .next-prog .box .copy-cap h1 {
     font-size: 40px;
   }
+
+
+
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -5940,7 +5939,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
     padding-bottom: 80px;
   }
   .container {
-    /* max-width: 540px; */
+    max-width: 540px;
   }
   h1 {
     font-size: 35px;
@@ -6027,12 +6026,16 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   }
   .slider .parallax-slider .caption.dig h1 {
     font-size: 40px;
+    text-align: left;
+
   }
   .slider-bus .caption h1 {
     font-size: 70px;
+
   }
   .freelancer .cont h1 {
     font-size: 60px;
+
   }
   .slider-bus .setone {
     bottom: 20px;
@@ -6106,6 +6109,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   .team-crv .img-box .img.sizmd {
     margin-bottom: 30px;
   }
+
 }
 
 @media screen and (max-width: 480px) {

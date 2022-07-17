@@ -62,24 +62,24 @@ const Footer = () => {
 					<div className="col-lg-5 offset-lg-2 d-flex align-self-center">
 						<div>
 							<ul style={{ listStyle: "none" }}>
-								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
+								<li style={{  fontSize: "20px" }}>
 									<Link href="/contact">
 										<a>Contact us</a>
 									</Link>
 								</li>
 
-								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
+								<li style={{  fontSize: "20px" }}>
 									<Link href="/privacy">
 										<a>Privacy policy</a>
 									</Link>
 								</li>
 
-								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
+								<li style={{  fontSize: "20px" }}>
 									<Link href="">
 										<a>Terms and conditions</a>
 									</Link>
 								</li>
-								<li style={{ margin: "10px -40px", fontSize: "20px" }}>
+								<li style={{  fontSize: "20px" }}>
 									<Link href="/about">
 										<a> About us</a>
 									</Link>

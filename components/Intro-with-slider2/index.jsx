@@ -95,7 +95,7 @@ const IntroWithSlider2 = () => {
 																		{slide.title.second}
 																	</div>
 																	<p style={{width:'60%'}}>
-																		{slide.title.desc}
+																		{/* {slide.title.desc} */}
 																	</p>
 																</>
 															) : (

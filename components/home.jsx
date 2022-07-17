@@ -36,21 +36,20 @@ const Homepage2 = () => {
 	}, [navbarRef]);
 
   return (
-		<DarkTheme>
-			<NavbarFullMenu />
+		<>
+			<NavbarFullMenu nr={navbarRef} lr={logoRef} />
 			<Navbar nr={navbarRef} lr={logoRef} />
 			<IntroWithSlider2 />
 			<BlcSec />
 			<Services2 />
 			<AboutIntro  />
-			{/* <VideoWithTestimonials /> */}
-			{/* <SkillsCircle theme="dark" subBG /> */}
+
 			<PortfolioCustomColumn column={3} filterPosition="center" />
 			<Clients1 theme="dark" subBG />
-			<CallToAction />
+			{/* <CallToAction /> */}
 
 			<Footer />
-		</DarkTheme>
+		</>
 	);
 };
 
