@@ -1,6 +1,6 @@
 import React from "react";
 import DarkTheme from "../../components/layouts/Dark";
-import Navbar from "../../components/Navbar-full-menu/navbar-full-menu/index";
+// import Navbar from "../../components/Navbar-full-menu/navbar-full-menu/index";
 import BlogStanderd from "../../components/Blog-standerd";
 import Footer from "../../components/Footer";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import ContactHeader from "../components/Contact-header";
 import ContactWithMap from "../components/Contact-with-map";
-import Navbar from "../components/Navbar-full-menu/navbar-full-menu/index";
+// import Navbar from "../components/Navbar-full-menu/navbar-full-menu/index";
 import DarkTheme from "../components/layouts/Dark";
 
 const Contact = () => {

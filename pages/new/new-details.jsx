@@ -1,7 +1,7 @@
 import React from "react";
 import BlogDetails from "../../components/Blog-details";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
+// import Navbar from "../../components/Navbar";
 import DarkTheme from "../../components/layouts/Dark";
 
 const BlogDetailsDark = () => {
