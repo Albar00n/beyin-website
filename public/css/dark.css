@@ -178,6 +178,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 .bg-img {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .bg-center {
@@ -1717,6 +1718,8 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 
 .topnav {
   position: fixed;
+  background-color: #11141b;
+  background: #11141b;
   /* top: 0;
   left: 0; */
   width: 100%;
