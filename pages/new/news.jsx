@@ -8,7 +8,7 @@ const BlogDark = () => {
 
 	return (
 		<DarkTheme>
-			<Navbar />
+			{/* <Navbar /> */}
 			<section className="page-header">
 				<div className="container">
 					<div className="row">

@@ -25,7 +25,7 @@ const BlogDetailsDark = () => {
 	}, [navbarRef]);
 	return (
 		<DarkTheme>
-			<Navbar nr={navbarRef} lr={logoRef} />
+			{/* <Navbar nr={navbarRef} lr={logoRef} /> */}
 			<section className="page-header blg">
 				<div className="container">
 					<div className="row justify-content-center">

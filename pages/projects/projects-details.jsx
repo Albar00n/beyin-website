@@ -30,7 +30,7 @@ const ProjectDetails2Dark = () => {
 	}, [navbarRef]);
 	return (
 		<DarkTheme>
-			<Navbar nr={navbarRef} lr={logoRef} />
+			{/* <Navbar nr={navbarRef} lr={logoRef} /> */}
 			<ProjectDetails2Header />
 			<ProjectDetails2Introduction />
 			<ProjectDetails2Images />

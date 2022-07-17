@@ -33,7 +33,7 @@ const AboutDark = () => {
 	return (
 		<DarkTheme>
 			{/* <Navbar  /> */}
-			<NavbarFullMenu  />
+			{/* <NavbarFullMenu  /> */}
 			<AboutHeader />
 			<AboutIntro />
 			<Services4 withPadding withOutTitle />

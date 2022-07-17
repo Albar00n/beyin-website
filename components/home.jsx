@@ -4,17 +4,35 @@ import CallToAction from "./Call-to-action";
 import Clients1 from "./Clients1";
 import Footer from "./Footer";
 import IntroWithSlider2 from "./Intro-with-slider2";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import PortfolioCustomColumn from "./Portfolio-custom-column";
 import Services2 from "./Services2";
 import SkillsCircle from "./Skills-circle";
 // import VideoWithTestimonials from "../components/Video-with-testimonials";
 import DarkTheme from "./layouts/Dark";
-import NavbarFullMenu from "../components/Navbar-full-menu/navbar-full-menu"
+import NavbarFullMenu from "../components/Navbar-full/navbar-full-menu/index"
 
 
 const Homepage2 = () => {
-;
+
+//   const navbarRef = React.useRef(null);
+// 	const logoRef = React.useRef(null);
+
+// 	React.useEffect(() => {
+// 		var navbar = navbarRef.current;
+// 		if (window.pageYOffset > 300) {
+// 			navbar.classList.add("nav-scroll");
+// 		} else {
+// 			navbar.classList.remove("nav-scroll");
+// 		}
+// 		window.addEventListener("scroll", () => {
+// 			if (window.pageYOffset > 300) {
+// 				navbar.classList.add("nav-scroll");
+// 			} else {
+// 				navbar.classList.remove("nav-scroll");
+// 			}
+// 		});
+// 	}, [navbarRef]);
 
   return (
 		<DarkTheme>

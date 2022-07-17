@@ -108,8 +108,9 @@ span:hover {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
 }
+
 
 .custom-font {
   font-family: "Barlow Condensed", sans-serif;
@@ -1716,11 +1717,11 @@ body {
 
 .topnav {
   position: fixed;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   width: 100%;
   z-index: 999999;
-  padding: 30px 0;
+  /* padding: 30px 0; */
   color: var(--color-white);
   -webkit-transition: all 0.7s;
   -o-transition: all 0.7s;

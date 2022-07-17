@@ -48,6 +48,11 @@ class MyDocument extends Document {
 				</Head>
 
 				<body>
+					{/* <script
+						dangerouslySetInnerHTML={{
+							__html: themeInitializerScript,
+						}}
+					></script> */}
 					<Main />
 					<NextScript />
 				</body>

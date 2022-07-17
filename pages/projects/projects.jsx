@@ -6,7 +6,7 @@ import DarkTheme from "../../components/layouts/Dark";
 const Showcase4Dark = () => {
 	return (
 		<DarkTheme>
-			<NavbarFullMenu />
+			{/* <NavbarFullMenu /> */}
 			<ShowcasesOneCenter />
 		</DarkTheme>
 	);

@@ -21,7 +21,7 @@ const Contact = () => {
 	}, []);
 	return (
 		<DarkTheme>
-			<Navbar />
+			{/* <Navbar /> */}
 			<ContactHeader sliderRef={fixedHeader} />
 			<div className="main-content" ref={MainContent}>
 				<ContactWithMap />

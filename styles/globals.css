@@ -1,3 +1,5 @@
+
+
 .blog-crv .item {
 	display: flex;
 	align-items: center;
@@ -93,7 +95,7 @@ body .slick-dots li button {
 
 .topnav .menu-icon {
 	display: flex;
-	
+
 }
 
 @media screen and (max-width: 991px) {
@@ -102,6 +104,7 @@ body .slick-dots li button {
 
 		/* position: fixed; */
 	}
+
 
 	.navbar .navbar-collapse.show-with-trans {
 		/* opacity: .9; */
@@ -136,3 +139,4 @@ section.next-prog {
 section.team.section-padding {
 	overflow: hidden;
 }
+
