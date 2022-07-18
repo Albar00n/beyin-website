@@ -75,7 +75,7 @@ const Footer = () => {
 								</li>
 
 								<li style={{  fontSize: "20px" }}>
-									<Link href="">
+									<Link href="/terms">
 										<a>Terms and conditions</a>
 									</Link>
 								</li>

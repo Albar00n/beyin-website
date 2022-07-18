@@ -68,17 +68,6 @@ const PrivacyDetails = () => {
 											</p>
 
 											<h6>-TABLE OF CONTENT</h6>
-
-											{/* <p>
-												We all intend to plan ahead, but too often let the
-												day-to-day minutia get in the way of making a calendar
-												for the year. Sure, you can’t know every detail to
-												anticipate. Heck, you can’t know half the priorities
-												that will pop up in any particular month. But you can
-												plan for big picture seasonality, busy-times, and
-												events.
-											</p> */}
-
 											<ul>
 												<li>
 													<span>01</span> What information about the users do we
@@ -135,12 +124,12 @@ const PrivacyDetails = () => {
 											</ul>
 											<div className="spacial" style={{ margin: "50px 0px" }}>
 												<ol>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5>
 															What information about the users do we collect?
 														</h5>
-														<ol style={{ listStyleType: "lower-alpha" }}>
-															<li className="privacy-p">
+														<ol>
+															<li className="privacy-p liA">
 																<b className="black">
 																	Information that you provide us:
 																</b>
@@ -167,7 +156,7 @@ const PrivacyDetails = () => {
 																with or the frequency and duration of your
 																activities
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																<b className="black">
 																	Information that we collect when you use the
 																	Website:
@@ -182,7 +171,7 @@ const PrivacyDetails = () => {
 																IP address, device and connection information,
 																browser information and web-log information.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																<b className="black">
 																	Information that we collect from third party
 																	sources:
@@ -195,12 +184,12 @@ const PrivacyDetails = () => {
 																profile based upon your privacy preference
 																settings on such platform
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																<b className="black">Camera Access:</b>
 																In order to view Augmented Reality (AR), the
 																users should give their camera access.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																<b className="black"> Payment Method:</b>
 																We will also collect your payment method, so as
 																to provide you a quicker access. We share this
@@ -208,7 +197,7 @@ const PrivacyDetails = () => {
 																<span className="underline">third party</span>
 																payment gateway service providers.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																<b className="black"> Good Judgment:</b>
 																We suggest that you exercise good judgment and
 																caution while providing your personal
@@ -216,7 +205,7 @@ const PrivacyDetails = () => {
 															</li>
 														</ol>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5>
 															What is the GDPR Privacy legal/lawful basis for
 															which we use your personal information?
@@ -229,13 +218,13 @@ const PrivacyDetails = () => {
 															processing. In the majority of cases, processing
 															will be justified on the basis that:
 														</p>
-														<ul>
-															<li className="privacy-p">
+														<ol>
+															<li className="privacy-p liNum">
 																<b className="black"> Consent:</b>
 																You have given your consent for processing
 																personal data for one or more specific purposes.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">
 																	Performance of a contract:
 																</b>
@@ -243,32 +232,32 @@ const PrivacyDetails = () => {
 																performance of an agreement with you and/or for
 																any pre-contractual obligations thereof.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black"> Legal obligations: </b>
 																Processing personal data is necessary for
 																compliance with a legal obligation to which we
 																are subject.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black"> Vital interests: </b>
 																Processing personal data is necessary in order
 																to protect your vital interests or of another
 																natural person.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black"> Public interests: </b>
 																Processing personal data is related to a task
 																that is carried out in the public interest or in
 																the exercise of official authority vested in the
 																Company.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">Legitimate interests: </b>
 																Processing personal data is necessary for the
 																purposes of the legitimate interests pursued by
 																the Company.
 															</li>
-														</ul>
+														</ol>
 														<div className="quotes text-center">
 															<p>
 																In any case, we will gladly help to clarify the
@@ -293,7 +282,7 @@ const PrivacyDetails = () => {
 															</p>
 														</div>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> How do we use this information?</h5>
 														<p>
 															We use all of the information we have to help us
@@ -303,37 +292,37 @@ const PrivacyDetails = () => {
 															collected from you for the following{" "}
 															<span className="underline">purposes:-</span>
 														</p>
-														<ol style={{ listStyleType: "lower-alpha" }}>
-															<li className="privacy-p">
+														<ol>
+															<li className="privacy-p liA">
 																To create and update your account;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To deliver the business cards that you order to
 																your delivery address;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To render and provide AR and VR services, and
 																other services that you request from us;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To process your refund or replacement requests,
 																if you are eligible for one;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To assess queries, requirements, and process
 																requests for products and services;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To enhance your online shopping experience,
 																including as a way to recognize you and welcome
 																you to the Site
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To improve our sites, products/services,
 																customer service, and customer shopping
 																experience.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To be able to deliver our services, personalize
 																content, and make suggestions for you by using
 																this information to understand how you use and
@@ -341,46 +330,46 @@ const PrivacyDetails = () => {
 																things you’re connected to and interested in on
 																and off our services.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																We use your information to send you marketing
 																communications, newsletter, communicate with you
 																about our services and let you know about our
 																policies and terms. We also use your information
 																to respond to you when you contact us
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																We use the information we have to help verify
 																accounts and activity, and to promote safety and
 																security on of our services, such as by
 																investigating suspicious activity or violations
 																of our terms or policies.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																We also use your information to ensure our
 																services are working as intended, such as
 																tracking outages or troubleshooting issues that
 																you report to us. And we use your information to
 																make improvements to our services.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																We use information to help improve the safety
 																and reliability of our services. This includes
 																detecting, preventing, and responding to fraud,
 																abuse, security risks, and technical issues that
 																could harm Beyin, our users, or the public.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To respond to summons, court orders, directions
 																or other judicial processes.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																To provide information to law enforcement
 																agencies or in connection with an investigation
 																on matters related to public safety.
 															</li>
 														</ol>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Deleting your information</h5>
 														<p>
 															Your information, account and the feedback that
@@ -402,7 +391,7 @@ const PrivacyDetails = () => {
 															</Link>
 														</p>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Cookies and Similar Technologies</h5>
 														<p>
 															Cookies are bits of electronic information that a
@@ -421,42 +410,32 @@ const PrivacyDetails = () => {
 															our website.
 														</p>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Sharing of Information</h5>
 														<ol style={{ listStyleType: "lower-alpha" }}>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																Whenever you post or share the feedback on the
 																Site, such feedback, including your name is
 																publicly viewable by the users and viewers of
 																Site.{" "}
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																We share your personal as well as non-personal
 																information with our third-party hosting service
 																providers namely, Heroku
 																<Link href="www.heroku.com">
-																	<a
-																		style={{
-																			margin: "0px 10px",
-																			textDecoration: "underline",
-																		}}
-																	>
+																	<a className="linkPrivacy">
 																		(www.heroku.com/)
 																	</a>
 																</Link>
 																and Vercel
 																<Link href="www.vercel.com">
-																	<a
-																		style={{
-																			margin: "0px 10px",
-																			textDecoration: "underline",
-																		}}
-																	>
+																	<a className="linkPrivacy">
 																		(www.vercel.com/)
 																	</a>
 																</Link>
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																Since we use the services of third-party service
 																providers, therefore, we share your personal
 																information with our third-party service
@@ -464,28 +443,18 @@ const PrivacyDetails = () => {
 																information with the third-party payment gateway
 																service providers, namely, Stripe
 																<Link href="www.stripe.com">
-																	<a
-																		style={{
-																			margin: "0px 10px",
-																			textDecoration: "underline",
-																		}}
-																	>
+																	<a className="linkPrivacy">
 																		(www.stripe.com/)
 																	</a>
 																</Link>
 																and Mamo Pay
 																<Link href="www.mamopay.com">
-																	<a
-																		style={{
-																			margin: "0px 10px",
-																			textDecoration: "underline",
-																		}}
-																	>
+																	<a className="linkPrivacy">
 																		(www.mamopay.com/).
 																	</a>
 																</Link>
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liA">
 																We keep your information safe and do not share
 																your information with any other third party.
 																However, if we merge with or are acquired by
@@ -496,38 +465,28 @@ const PrivacyDetails = () => {
 																likely be one of the assets that would be
 																transferred
 															</li>
-															<li>
+															<li className="privacy-p liA">
 																We may also share your information in response
 																to legal request. Please refer to
 																<b>Section 12.</b>
 															</li>
 														</ol>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Storage and Security of Information</h5>
-														<ol style={{ listStyleType: "lower-alpha" }}>
-															<li className="privacy-p">
+														<ol>
+															<li className="privacy-p liA">
 																<b className="black"> Storage:</b>
 																Your data is stored through data storage,
 																databases and servers of Heroku
 																<Link href="www.heroku.com">
-																	<a
-																		style={{
-																			margin: "0px 10px",
-																			textDecoration: "underline",
-																		}}
-																	>
+																	<a className="linkPrivacy">
 																		(www.heroku.com/)
 																	</a>
 																</Link>
 																and Vercel
 																<Link href="www.vercel.com">
-																	<a
-																		style={{
-																			margin: "0px 10px",
-																			textDecoration: "underline",
-																		}}
-																	>
+																	<a className="linkPrivacy">
 																		(www.vercel.com/)
 																	</a>
 																</Link>{" "}
@@ -541,16 +500,12 @@ const PrivacyDetails = () => {
 																country where the data protection and other laws
 																may differ (and be less stringent) from your
 																country of residence.
-																<span
-																	style={{
-																		textDecoration: "underline",
-																	}}
-																>
+																<span className="underline">
 																	You hereby consent to any such cross-border
 																	transfer of your personal information
 																</span>
 															</li>
-															<li>
+															<li className="privacy-p liA">
 																<b className="black"> Retention:</b>
 																Personal information that we collect, access or
 																process will be retained only so long as
@@ -562,7 +517,7 @@ const PrivacyDetails = () => {
 																purposes will be destroyed, erased or made
 																de-identified or anonymous
 															</li>
-															<li>
+															<li className="privacy-p liA">
 																<b className="black"> Security:</b>
 																We, Heroku, Vercel, Stripe and Mamo Pay employ
 																reasonable security practices to ensure that the
@@ -575,7 +530,7 @@ const PrivacyDetails = () => {
 															</li>
 														</ol>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Links to other sites</h5>
 														<p>
 															The Website may contain links to third-party
@@ -590,7 +545,7 @@ const PrivacyDetails = () => {
 															you visit
 														</p>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Rights of EU, EEA and UK users</h5>
 														<p>
 															This section of the Policy supplements the other
@@ -625,7 +580,7 @@ const PrivacyDetails = () => {
 															information:
 														</p>
 														<ul>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">
 																	Right to obtain information:
 																</b>
@@ -633,7 +588,7 @@ const PrivacyDetails = () => {
 																basis your personal information is processed and
 																to obtain a copy;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">
 																	Right to rectification:{" "}
 																</b>
@@ -641,7 +596,7 @@ const PrivacyDetails = () => {
 																inaccurate information we hold about you
 																rectified and corrected.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">Right of Erasure: </b>
 																to erase your personal information in limited
 																circumstances where (a) you believe that it is
@@ -658,7 +613,7 @@ const PrivacyDetails = () => {
 																the personal information we hold about you is
 																being unlawfully processed by us;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">Right of restriction: </b>
 																to restrict processing of your personal
 																information where: (a) the accuracy of the
@@ -673,12 +628,12 @@ const PrivacyDetails = () => {
 																information based on our legitimate interests
 																and we are considering your objection;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">Right to object: </b>
 																to object to decisions which are based solely on
 																automated processing or profiling;
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">
 																	Right to ask for a copy:{" "}
 																</b>
@@ -691,7 +646,7 @@ const PrivacyDetails = () => {
 																under which your personal information is
 																transferred outside of the EEA.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">
 																	Right to withdraw your consent.{" "}
 																</b>
@@ -701,7 +656,7 @@ const PrivacyDetails = () => {
 																access to certain specific functionalities of
 																our services.
 															</li>
-															<li className="privacy-p">
+															<li className="privacy-p liNum">
 																<b className="black">
 																	Request the transfer of your Personal Data
 																</b>
@@ -764,7 +719,7 @@ const PrivacyDetails = () => {
 															</Link>
 														</p>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5>California Resident Rights</h5>
 														<p>
 															This section of the Policy applies to you, if you
@@ -803,7 +758,9 @@ const PrivacyDetails = () => {
 															information directly to us.
 														</p>
 														<ul>
-															<li>Category A: Identifiers</li>
+															<li className="privacy-p liNum">
+																<b>Category A: Identifiers</b>
+															</li>
 															<p>
 																<b>Examples: </b>A real name, alias, postal
 																address, unique personal identifier, online
@@ -813,7 +770,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: Yes
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>
 																	Category B: Personal information categories
 																	listed in the California Customer Records
@@ -836,7 +793,7 @@ const PrivacyDetails = () => {
 																	Collected: Yes.
 																</p>
 															</li>
-															<li>
+															<li className="privacy-p liNum">
 																<b>
 																	Category C: Protected classification
 																	characteristics under California or federal
@@ -857,7 +814,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: No.
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>Category D: Commercial information.</b>
 															</li>
 															<p>
@@ -867,7 +824,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: Yes
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>Category E: Biometric information.</b>
 															</li>
 															<p>
@@ -883,7 +840,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: No.
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>
 																	Category F: Internet or other similar network
 																	activity.
@@ -895,7 +852,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: Yes.
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b> Category G: Geolocation data.</b>
 															</li>
 															<p>
@@ -904,7 +861,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: Yes
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>Category H: Sensory data.</b>
 															</li>
 															<p>
@@ -914,7 +871,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: No
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>
 																	Category I: Professional or employment-related
 																	information.
@@ -927,7 +884,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: No.
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>
 																	• Category J: Non-public education information
 																	(per the Family Educational Rights and Privacy
@@ -946,7 +903,7 @@ const PrivacyDetails = () => {
 																<br />
 																Collected: No.
 															</p>
-															<li>
+															<li className="privacy-p liNum">
 																<b>
 																	Category K: Inferences drawn from other
 																	personal information.
@@ -962,24 +919,24 @@ const PrivacyDetails = () => {
 																Collected: No.
 															</p>
 														</ul>
-														<p>
+														<h5>
 															Under CCPA, personal information does not include:
-														</p>
+														</h5>
 														<ul>
-															<li>
+															<li className="privacy-p liNum">
 																Publicly available information from government
 																records
 															</li>
-															<li>
+															<li className="privacy-p liNum">
 																Deidentified or aggregated consumer information
 															</li>
-															<li>
+															<li className="privacy-p liNum">
 																Information excluded from the CCPA scope, such
 																as:
 															</li>
-															<ul>
-																<li>
-																	o Health or medical information covered by the
+															<ul className="m">
+																<li className="privacy-p liNum">
+																	Health or medical information covered by the
 																	<b>
 																		Health Insurance Portability and
 																		Accountability Act of 1996 (HIPAA) and the
@@ -988,8 +945,8 @@ const PrivacyDetails = () => {
 																	</b>{" "}
 																	or clinical trial data
 																</li>
-																<li>
-																	o Personal Information covered by certain
+																<li className="privacy-p liNum">
+																	Personal Information covered by certain
 																	sector-specific privacy laws, including the
 																	Fair Credit Reporting Act (FRCA), the
 																	Gramm-Leach-Bliley Act (GLBA) or California
@@ -1013,8 +970,8 @@ const PrivacyDetails = () => {
 															under the CCPA in relation to personal information
 															related to you:{" "}
 														</h6>
-														<ul>
-															<li>
+														<ul className="m">
+															<li className="privacy-p liNum">
 																You have a right to request that we will
 																disclose certain information to you about our
 																collection and use of personal information
@@ -1032,18 +989,18 @@ const PrivacyDetails = () => {
 																The specific pieces of personal information that
 																we have collected about you.{" "}
 															</li>
-															<li>
+															<li className="privacy-p liNum">
 																You have a right to request that we delete
 																personal information related to you that we
 																collected from you under certain circumstances
 																and exceptions.
 															</li>
-															<li>
+															<li className="privacy-p liNum">
 																You also have a right not to be discriminated
 																against for exercising your rights under the
 																CCPA
 															</li>
-															<li>
+															<li className="privacy-p liNum">
 																You also have a right to submit your request via
 																an authorized agent. If you use an authorized
 																agent to submit a request to access or delete
@@ -1061,7 +1018,7 @@ const PrivacyDetails = () => {
 																request.
 															</li>
 														</ul>
-														<p style={{ textDecoration: "underline" }}>
+														<p className="underline">
 															To make such requests, please contact us at
 															<Link href="Support@beyin.me">
 																<a style={{ margin: "0px 5px" }}>
@@ -1075,7 +1032,7 @@ const PrivacyDetails = () => {
 															address. Government identification may also be
 															required.
 														</span>
-														<p style={{ textDecoration: "underline" }}>
+														<p className="underline">
 															A request for access can be made by you only twice
 															within a 12-months period. Any disclosures that we
 															provide will only cover the 12-months period
@@ -1089,7 +1046,7 @@ const PrivacyDetails = () => {
 															further your request.
 														</p>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> How do we respond to legal requests?</h5>
 														<p>
 															We may access, preserve and share your information
@@ -1109,7 +1066,7 @@ const PrivacyDetails = () => {
 															reliability of your account to{" "}
 														</p>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5>Children Privacy</h5>
 														Protecting childrens privacy is important to us, and
 														therefore our Website is not intended for children.
@@ -1129,7 +1086,7 @@ const PrivacyDetails = () => {
 															information described in this Section.
 														</span>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5>How can I withdraw my consent? (OPT-OUT)</h5>
 														If you signup, make a purchase, you will
 														automatically start receiving promotional emails and
@@ -1144,7 +1101,7 @@ const PrivacyDetails = () => {
 															</a>
 														</Link>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Governing law and Dispute Resolution</h5>
 														Unless provided by the relevant statute, rules or
 														directives applicable to the jurisdiction in which
@@ -1155,7 +1112,7 @@ const PrivacyDetails = () => {
 														as provided in the <b>Terms & Conditions </b>shall
 														apply to this <b>Privacy Policy</b> as well
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5>
 															Do you have questions or concerns about this
 															Privacy Policy?
@@ -1171,7 +1128,7 @@ const PrivacyDetails = () => {
 															</a>
 														</Link>
 													</li>
-													<li style={{ margin: "30px 0px" }}>
+													<li className="ol">
 														<h5> Welcoming of suggestions</h5>
 														welcome your comments regarding this Privacy Policy.
 														Please write to us at{" "}
@@ -1184,30 +1141,6 @@ const PrivacyDetails = () => {
 												</ol>
 												<b>Last updated on 7/17/2022.</b>
 											</div>
-											{/* <div className="quotes text-center">
-												<p>
-													Never ever think of giving up. Winners never quit and
-													quitters never win. Take all negative words out of
-													your mental dictionary and focus on the solutions with
-													utmost conviction and patience. The battle is never
-													lost until you’ve abandon your vision. We will ask you
-													for additional data to confirm your identity and for
-													security purposes, before disclosing data requested by
-													you. We reserve the right to charge a fee where
-													permitted by law. We will decline to process requests
-													that jeopardize the privacy of others, are extremely
-													impractical, or would cause us to take any action that
-													is not permissible under applicable laws.
-													Additionally, as permitted by applicable laws, we will
-													retain where necessary certain personal information
-													for a limited period of time for record-keeping,
-													accounting and fraud prevention purposes. prevent
-													fraud and abuse on and off of our Services. We also
-													may retain information from accounts disabled for
-													violations of our terms for at least a year to prevent
-													repeat abuse or other violations of our terms.
-												</p>
-											</div> */}
 											<div className="row">
 												<div className="col-md-6">
 													<div className="mb-10">
@@ -1220,209 +1153,10 @@ const PrivacyDetails = () => {
 													</div>
 												</div>
 											</div>
-											{/* <p>
-												We all intend to plan ahead, but too often let the
-												day-to-day minutia get in the way of making a calendar
-												for the year. Sure, you can’t know every detail to
-												anticipate. Heck, you can’t know half the priorities
-												that will pop up in any particular month. But you can
-												plan for big picture seasonality, busy-times, and
-												events.
-											</p> */}
-											{/* <div className="share-info">
-												<div className="social">
-													<a href="#0">
-														<i className="fab fa-facebook-f"></i>
-													</a>
-													<a href="#0">
-														<i className="fab fa-twitter"></i>
-													</a>
-													<a href="#0">
-														<i className="fab fa-behance"></i>
-													</a>
-												</div>
-												<div className="tags">
-													<a href="#0">Web</a>,<a href="#0">Themeforest</a>,
-													<a href="#0">ThemesCamp</a>
-												</div>
-											</div> */}
 										</div>
-										{/* <div className="author">
-											<div className="author-img">
-												<img src="/img/blog/01.jpg" alt="" />
-											</div>
-											<div className="info">
-												<h6>
-													<span>author :</span> Jorden Griffin
-												</h6>
-												<p>
-													the main component of a healthy environment for self
-													esteem is that it needs be nurturing. The main compont
-													of a healthy environment.
-												</p>
-												<div className="social">
-													<a href="#0">
-														<i className="fab fa-facebook-f"></i>
-													</a>
-													<a href="#0">
-														<i className="fab fa-twitter"></i>
-													</a>
-													<a href="#0">
-														<i className="fab fa-behance"></i>
-													</a>
-												</div>
-											</div>
-										</div> */}
 									</div>
 								</div>
 							</div>
-							{/*
-							<div className="pagination">
-								<span>
-									<a href="#0">Prev Post</a>
-								</span>
-								<span className="icon">
-									<Link href="/blog/blog-dark">
-										<a>
-											<i className="fas fa-th-large"></i>
-										</a>
-									</Link>
-								</span>
-								<span className="text-right">
-									<a href="#0">Next Post</a>
-								</span>
-							</div>
-
-							<div className="comments-area">
-								<h5>Comments :</h5>
-								<div className="item">
-									<div className="comment-img">
-										<img src="/img/blog/01.jpg" alt="" />
-									</div>
-									<div className="info">
-										<h6>
-											Jorden Griffin - <span> 6 Aug 2022</span>
-										</h6>
-										<span className="replay">
-											<a href="#0">
-												Replay <i className="fas fa-reply"></i>
-											</a>
-										</span>
-										<p>
-											the main component of a healthy environment for self
-											esteem is that it needs be nurturing. The main compont of
-											a healthy environment.
-										</p>
-									</div>
-								</div>
-								<div className="item relped">
-									<div className="comment-img">
-										<img src="/img/blog/01.jpg" alt="" />
-									</div>
-									<div className="info">
-										<h6>
-											Jorden Griffin - <span> 6 Aug 2022</span>
-										</h6>
-										<span className="replay">
-											<a href="#0">
-												Replay <i className="fas fa-reply"></i>
-											</a>
-										</span>
-										<p>
-											the main component of a healthy environment for self
-											esteem is that it needs be nurturing. The main compont of
-											a healthy environment.
-										</p>
-									</div>
-								</div>
-								<div className="item">
-									<div className="comment-img">
-										<img src="/img/blog/01.jpg" alt="" />
-									</div>
-									<div className="info">
-										<h6>
-											Jorden Griffin - <span> 6 Aug 2022</span>
-										</h6>
-										<span className="replay">
-											<a href="#0">
-												Replay <i className="fas fa-reply"></i>
-											</a>
-										</span>
-										<p>
-											the main component of a healthy environment for self
-											esteem is that it needs be nurturing. The main compont of
-											a healthy environment.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div className="comment-form">
-								<h5>Add Comment :</h5>
-								<div className="form">
-									<Formik
-										initialValues={{
-											name: "",
-											email: "",
-											comment: "",
-										}}
-										onSubmit={async (values) => {
-											await sendComment(500);
-											alert(JSON.stringify(values, null, 2));
-
-											// Reset the values
-											values.name = "";
-											values.email = "";
-											values.comment = "";
-										}}
-									>
-										{({ errors, touched }) => (
-											<Form>
-												<div className="row">
-													<div className="col-12">
-														<div className="form-group">
-															<Field
-																as="textarea"
-																placeholder="Your Comment"
-																name="comment"
-															/>
-														</div>
-													</div>
-													<div className="col-md-6">
-														<div className="form-group">
-															<Field
-																type="text"
-																placeholder="Your Name"
-																name="name"
-															/>
-														</div>
-													</div>
-													<div className="col-md-6">
-														<div className="form-group">
-															<Field
-																type="email"
-																validate={validateEmail}
-																placeholder="Your Email"
-																name="email"
-															/>
-															{errors.email && touched.email && (
-																<div>{errors.email}</div>
-															)}
-														</div>
-													</div>
-													<div className="col-12">
-														<div className="form-group">
-															<button className="btn-curve btn-color btn-lg">
-																<span>Submit</span>
-															</button>
-														</div>
-													</div>
-												</div>
-											</Form>
-										)}
-									</Formik>
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</div>

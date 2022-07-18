@@ -11,7 +11,7 @@ const PrivacyHeader = () => {
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="cont text-center">
-							<h1>PRIVACY POLICY</h1>
+							<h1>TERMS & CONDITIONS</h1>
 							<div className="path">
 								<Link href="/">
 									<a>Home</a>

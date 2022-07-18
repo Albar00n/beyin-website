@@ -5,21 +5,21 @@ import Link from "next/link";
 import appData from "../../data/app.json";
 import handleFullScreenNavbar from "../../../common/handleFullScreenNavbar";
 
-const NavbarFullMenu = ({ theme, lr ,nr}) => {
+const NavbarFullMenu = ({ theme, lr }) => {
   React.useEffect(() => {
     handleFullScreenNavbar();
   }, []);
   return (
-		<nav>
+		<>
 			<div
 				id="mobile"
-				ref={nr}
-				className={`topnav navbar  change${
-					theme === "themeL" ? "light" : ""
+				// ref={nr}
+				className={`topnav navbar navbar-expand-lg change ${
+					theme ? (theme === "light" ? "light" : "") : ""
 				}`}
 			>
-				<div className="container">
-					{/* <div className="container"> */}
+				{/* <div className="container-fluid"> */}
+					<div className="container-fluid">
 						<div className="logo">
 							<a href="#0">
 								{theme ? (
@@ -46,7 +46,7 @@ const NavbarFullMenu = ({ theme, lr ,nr}) => {
 								</span>
 							</Split>
 						</div>
-					{/* </div> */}
+					</div>
 				</div>
 
 				<div className="hamenu">
@@ -117,11 +117,11 @@ const NavbarFullMenu = ({ theme, lr ,nr}) => {
 						</div>
 					</div>
 				</div>
-			</div>
+			{/* </div> */}
 			{/*  */}
 
 			{/*  */}
-		</nav>
+		</>
 	);
 };
 
