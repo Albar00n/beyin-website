@@ -17,9 +17,9 @@ const PrivacyHeader = () => {
 									<a>Home</a>
 								</Link>
 								<span>/</span>
-								<Link href="/about">
+								<Link href="/privacy">
 									<a href="#0" className="active">
-										About Us
+										Privacy
 									</a>
 								</Link>
 							</div>

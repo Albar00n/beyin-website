@@ -254,10 +254,14 @@ const ContactWithMap = () => {
 
 			<footer className="footer-half sub-bg">
 				<div className="container">
-					<div className="copyrights text-center mt-0">
+					<div className="copyrights text-center">
 						<p>
-							© 2022, Avo Template. Made with passion by
-							<a href="#0">ThemesCamp</a>.
+							© Beyin Digital Technology Limited - 2022. The trademarks, logos,
+							designs, services and the content appearing herein, is exclusively
+							owned by Beyin Digital Technology Limited, and/or its licensors,
+							and are protected. Any unauthorized use or reproduction or
+							distribution, shall attract suitable action under applicable law.
+							{/* <a href="#0">ThemesCamp</a>. */}
 						</p>
 					</div>
 				</div>

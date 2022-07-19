@@ -5,6 +5,11 @@ const handleFullScreenNavbar = () => {
   function noScroll() {
     window.scrollTo(0, 0);
   }
+   window.addEventListener("scroll", () => {
+			document
+				.querySelector("#mobile")
+				.classList.toggle("window-scroll", window.scrollY > 300);
+		});
   var open = false,
     navDark = document.querySelector(".topnav.dark"),
     logoChan = document.querySelector(".topnav.dark .logo img"),

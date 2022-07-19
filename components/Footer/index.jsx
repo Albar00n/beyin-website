@@ -62,24 +62,24 @@ const Footer = () => {
 					<div className="col-lg-5 offset-lg-2 d-flex align-self-center">
 						<div>
 							<ul style={{ listStyle: "none" }}>
-								<li style={{  fontSize: "20px" }}>
+								<li style={{ fontSize: "20px" }}>
 									<Link href="/contact">
 										<a>Contact us</a>
 									</Link>
 								</li>
 
-								<li style={{  fontSize: "20px" }}>
+								<li style={{ fontSize: "20px" }}>
 									<Link href="/privacy">
 										<a>Privacy policy</a>
 									</Link>
 								</li>
 
-								<li style={{  fontSize: "20px" }}>
+								<li style={{ fontSize: "20px" }}>
 									<Link href="/terms">
 										<a>Terms and conditions</a>
 									</Link>
 								</li>
-								<li style={{  fontSize: "20px" }}>
+								<li style={{ fontSize: "20px" }}>
 									<Link href="/about">
 										<a> About us</a>
 									</Link>
@@ -136,8 +136,12 @@ const Footer = () => {
 				</div>
 				<div className="copyrights text-center">
 					<p>
-						© 2022, Avo Template. Made with passion by
-						<a href="#0">ThemesCamp</a>.
+						© Beyin Digital Technology Limited - 2022. The trademarks, logos,
+						designs, services and the content appearing herein, is exclusively
+						owned by Beyin Digital Technology Limited, and/or its licensors, and
+						are protected. Any unauthorized use or reproduction or distribution,
+						shall attract suitable action under applicable law.
+						{/* <a href="#0">ThemesCamp</a>. */}
 					</p>
 				</div>
 			</div>

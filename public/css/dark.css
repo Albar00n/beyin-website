@@ -177,6 +177,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+
 }
 
 .bg-center {
@@ -1068,6 +1069,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   -webkit-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
+  object-fit: cover;
 }
 .imago.animated {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -1720,20 +1722,41 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
 .topnav {
-background: #11141b;
+/* background: #11141b;
   position: fixed;
-    /* top: -20px; */
+
     left: 0;
     width: 100%;
     z-index: 999999;
     color: #fff;
     -webkit-transition: all 0.7s;
     -o-transition: all 0.7s;
-    transition: all 0.7s;
+    transition: all 0.7s; */
+position:absolute;
 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+  z-index: 999999;
+  min-height: 80px;
 }
 
+.topnav.window-scroll{
 
+  background: #11141b;
+    border-color: #181b21;
+    position: fixed;
+    /* -webkit-transition: -webkit-transform 0.25s;
+      transition: -webkit-transform 0.25s;
+      -o-transition: transform 0.25s;
+      transition: transform 0.25s;
+      transition: transform 0.25s, -webkit-transform 0.25s;
+      -webkit-transform: translateY(80px);
+      -ms-transform: translateY(80px);
+      transform: translateY(80px); */
+}
 
 
 
@@ -1744,10 +1767,13 @@ background: #11141b;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: blue; */
 }
+
 .topnav .container-fluid {
   padding: 0 50px;
 }
+
 .topnav .logo {
   width: 90px;
 
@@ -3852,6 +3878,7 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+
 }
 .portfolio .gallery .items .item-img > a {
   display: block;
@@ -5586,8 +5613,8 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
   object-position: center center;
 }
 .footer-half .copyrights {
-  margin-top: 50px;
-  padding: 30px 0;
+  /* margin-top: 50px; */
+  padding: 20px 0;
   background: #13161d;
 }
 .footer-half .copyrights p {

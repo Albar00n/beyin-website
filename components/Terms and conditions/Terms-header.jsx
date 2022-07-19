@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link'
-const PrivacyHeader = () => {
+const TermsHeader = () => {
   return (
 		<header
 			className="pages-header bg-img valign parallaxie"
@@ -17,9 +17,9 @@ const PrivacyHeader = () => {
 									<a>Home</a>
 								</Link>
 								<span>/</span>
-								<Link href="/about">
+								<Link href="/terms">
 									<a href="#0" className="active">
-										About Us
+										Terms & Conditions
 									</a>
 								</Link>
 							</div>
@@ -31,4 +31,4 @@ const PrivacyHeader = () => {
 	);
 };
 
-export default PrivacyHeader;
+export default TermsHeader;

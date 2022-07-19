@@ -8,7 +8,7 @@ const MinimalArea = () => {
   React.useEffect(() => {
     featuresEffect();
     setTimeout(() => {
-      thumparallaxDown();
+      // thumparallaxDown();
     }, 1000);
   }, []);
   return (

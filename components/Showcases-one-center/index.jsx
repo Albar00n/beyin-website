@@ -61,20 +61,20 @@ const ShowcasesOneCenter = () => {
 						}}
 						onSwiper={(swiper) => {
 							setTimeout(() => {
-								for (let i =0; i < swiper.slides.length; i++){
-										swiper.slides[i].childNodes[0].setAttribute(
-										"data-swiper-parallax",
-										0.75 * swiper.width,
-									);
-								};
+								// for (let i =0; i < swiper.slides.length; i++){
+								// 		swiper.slides[i].childNodes[0].setAttribute(
+								// 		"data-swiper-parallax",
+								// 		0.75 * swiper.width,
+								// 	);
+								// };
 
 
-								swiper.params.navigation.prevEl = navigationPrevRef.current;
-								swiper.params.navigation.nextEl = navigationNextRef.current;
+								// swiper.params.navigation.prevEl = navigationPrevRef.current;
+								// swiper.params.navigation.nextEl = navigationNextRef.current;
 
-								swiper.navigation.destroy();
-								swiper.navigation.init();
-								swiper.navigation.update();
+								// swiper.navigation.destroy();
+								// swiper.navigation.init();
+								// swiper.navigation.update();
 							});
 						}}
 						className="swiper-wrapper"

@@ -3,13 +3,13 @@ import introData from "../data/sections/intro2.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Split from "../Split";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+
 
 SwiperCore.use([Navigation, Pagination, Parallax, Autoplay]);
 
@@ -20,7 +20,7 @@ const IntroWithSlider2 = () => {
     setTimeout(() => {
       setLoad(false);
       removeSlashFromPagination();
-    }, 1000);
+    }, 2000);
   }, []);
 
   const navigationPrevRef = React.useRef(null);
@@ -32,8 +32,10 @@ const IntroWithSlider2 = () => {
 			<div className="swiper-container parallax-slider">
 				{!load ? (
 					<Swiper
-						speed={2000}
+						speed={3000}
 						autoplay={true}
+						// slidesPerGroup={4}
+						loop={true}
 						parallax={true}
 						navigation={{
 							prevEl: navigationPrevRef.current,
@@ -57,16 +59,12 @@ const IntroWithSlider2 = () => {
 										0.75 * swiper.width,
 									);
 								}
-
 								swiper.params.navigation.prevEl = navigationPrevRef.current;
 								swiper.params.navigation.nextEl = navigationNextRef.current;
-
 								swiper.params.pagination.el = paginationRef.current;
-
 								swiper.navigation.destroy();
 								swiper.navigation.init();
 								swiper.navigation.update();
-
 								swiper.pagination.destroy();
 								swiper.pagination.init();
 								swiper.pagination.update();
@@ -77,42 +75,48 @@ const IntroWithSlider2 = () => {
 					>
 						{introData.map((slide) => (
 							<SwiperSlide key={slide.id} className="swiper-slide">
-								<div
-									className="bg-img valign"
-									style={{ backgroundImage: `url(${slide.image})` }}
-									data-overlay-dark="6"
-								>
-									<div className="container">
-										<div className="row">
-											<div className="col-lg-12">
-												<div className="caption dig">
-													<Split>
-														<h1 className="words chars splitting">
-															{typeof slide.title === "object" ? (
-																<>
-																	{slide.title.first}
-																	<div className="tline">
-																		{slide.title.second}
-																	</div>
-																	<p style={{width:'60%'}}>
-																		{/* {slide.title.desc} */}
-																	</p>
-																</>
-															) : (
-																slide.title
-															)}
-														</h1>
-													</Split>
-													<Link href="/">
-														<a className="simple-btn mt-50">
-															<span>Discover Works</span>
-														</a>
-													</Link>
+								<>
+									<div
+										className="bg-img valign"
+										style={{ backgroundImage: `url(${slide.image})` }}
+										data-overlay-dark="6"
+									>
+										<div className="container">
+											<div className="row">
+												<div className="col-lg-12">
+													<div className="caption dig">
+														<Split>
+															<h1 className="words chars splitting">
+																{typeof slide.title === "object" ? (
+																	<>
+																		{slide.title.first}
+																		<div className="tline">
+																			{slide.title.second}
+																		</div>
+
+																	</>
+																) : (
+																	slide.title
+																)}
+															</h1>
+															<p
+
+																className="desc"
+															>
+																{slide.title.desc}
+															</p>
+														</Split>
+														<Link href={slide.link}>
+															<a className="simple-btn mt-50">
+																<span>Discover Works</span>
+															</a>
+														</Link>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-								</div>
+								</>
 							</SwiperSlide>
 						))}
 					</Swiper>
