@@ -14,15 +14,25 @@ class MyDocument extends Document {
 				<Head>
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 					<meta
-						name="keywords"
-						content="HTML5 Template Avo onepage themeforest"
+						name="description"
+						content="Augmented reality service providers
+نبتكر ونطور المشاريع الرقمية | Digital innovators"
 					/>
 					<meta
 						name="description"
-						content="Avo - Onepage Multi-Purpose HTML5 Template"
+						content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
 					/>
+
+					<meta name="keywords" content="" />
+
+					<meta data-rh="true" name="robots" content="index, follow" />
+					<meta name="Linkedin:site" content="@beyin-tech" />
+					<meta name="instagram:site" content="@beyin.me" />
+
 					<meta name="author" content="" />
 					<link rel="shortcut icon" href="/favicon.ico" />
+					<meta data-rh="true" name="google" content="translate" />
+
 					{/* Google Fonts */}
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" />
