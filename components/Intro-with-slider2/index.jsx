@@ -34,7 +34,7 @@ const IntroWithSlider2 = () => {
 					<Swiper
 						speed={3000}
 						autoplay={true}
-						// slidesPerGroup={4}
+						slidesPerGroup={1}
 						loop={true}
 						parallax={true}
 						navigation={{

@@ -210,18 +210,18 @@ const ContactWithMap = () => {
 								</h3>
 								<div className="item mb-40">
 									<h5>
-										<a href="#0">Email@example.com</a>
+										<a href="#0">Support@beyin.me</a>
 									</h5>
-									<h5>+4.930.705.5448</h5>
+									<h5>+971 52 588 6620</h5>
 								</div>
 								<h3 className="custom-font wow" data-splitting>
 									Visit Us.
 								</h3>
 								<div className="item">
 									<h6>
-										295 Witting Streets Suite 666,
+										FD - GF, Accelerator Building, Masdar City,
 										<br />
-										Melbourne, Australia
+										Abu Dhabi - United Arab Emirates
 									</h6>
 								</div>
 								<div className="social mt-50">
