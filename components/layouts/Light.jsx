@@ -4,6 +4,7 @@ import Head from "next/head";
 
 const LightTheme = ({ children, bdOn }) => {
   if (bdOn) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     React.useEffect(() => {
       document.querySelector("body").classList.add("bd-dark");
       return () => {
