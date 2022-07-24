@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import ContactHeader from "../components/Contact-header";
 import ContactWithMap from "../components/Contact-with-map";
 import AllNavbar from "../components/allNavbar/AllNav";
@@ -21,13 +22,18 @@ const Contact = () => {
 
 	}, []);
 	return (
-		<DarkTheme>
-			<AllNavbar  />
-			<ContactHeader sliderRef={fixedHeader} />
-			<div className="main-content" ref={MainContent}>
-				<ContactWithMap />
-			</div>
-		</DarkTheme>
+		<>
+			<Head>
+				<title></title>
+			</Head>
+			<DarkTheme>
+				<AllNavbar />
+				<ContactHeader sliderRef={fixedHeader} />
+				<div className="main-content" ref={MainContent}>
+					<ContactWithMap />
+				</div>
+			</DarkTheme>
+		</>
 	);
 };
 

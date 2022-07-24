@@ -30,9 +30,9 @@ const PortfolioCustomColumn = ({
 							Our Portfolio
 						</h6>
 						<Split>
-							<h3 className="wow words chars splitting" data-splitting>
+							<h1 className="wow words chars splitting" data-splitting>
 								Portfolio
-							</h3>
+							</h1>
 							<p style={{width:'90%'}}>
 								We are a company that stands for quality and excellence. We take
 								pride in our work and always aim to deliver the best results for

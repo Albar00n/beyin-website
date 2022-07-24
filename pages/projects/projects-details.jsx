@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import DarkTheme from "../../components/layouts/Dark";
 import AllNavbar from "../../components/allNavbar/AllNav";
 import Navbar from "../../components/Navba/index";
@@ -14,23 +15,28 @@ import SmallFooter from "../../components/Footer";
 const ProjectDetails2Dark = () => {
 
 	return (
-		<DarkTheme>
-			<AllNavbar  />
-			<ProjectDetails2Header />
-			<ProjectDetails2Introduction />
-			<ProjectDetails2Images />
-			<ProjectDetailsDescription />
-			<ProjectDetailsVideo
-				videoBackground="/img/portfolio/project2/bg.jpg"
-				videoType="vimeo"
-				videoId={127203262}
-			/>
-			<NextProject
-				projectImage="/img/portfolio/project1/bg.jpg"
-				projectTitle="Natural plus modern."
-			/>
-			<SmallFooter />
-		</DarkTheme>
+		<>
+			<Head>
+				<title></title>
+			</Head>
+			<DarkTheme>
+				<AllNavbar />
+				<ProjectDetails2Header />
+				<ProjectDetails2Introduction />
+				<ProjectDetails2Images />
+				<ProjectDetailsDescription />
+				<ProjectDetailsVideo
+					videoBackground="/img/portfolio/project2/bg.jpg"
+					videoType="vimeo"
+					videoId={127203262}
+				/>
+				<NextProject
+					projectImage="/img/portfolio/project1/bg.jpg"
+					projectTitle="Natural plus modern."
+				/>
+				<SmallFooter />
+			</DarkTheme>
+		</>
 	);
 };
 

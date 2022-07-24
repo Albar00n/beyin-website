@@ -7,6 +7,10 @@ import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
 
+export const config = {
+	unstable_runtimeJS: false,
+};
+
 function MyApp({ Component, pageProps }) {
 
 	return (

@@ -12,9 +12,9 @@ const Services2 = () => {
 							Our services
 						</h6>
 						<Split>
-							<h3 className="wow words chars splitting" data-splitting>
+							<h1 className="wow words chars splitting" data-splitting>
 								services
-							</h3>
+							</h1>
 							<p
 								className="wow words chars splitting"
 								data-splitting

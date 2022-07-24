@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import AboutHeader from "../components/About-header";
 import AboutIntro from "../components/About-intro";
 import CallToAction from "../components/Call-to-action";
@@ -14,19 +15,24 @@ import DarkTheme from "../components/layouts/Dark";
 const AboutDark = () => {
 
 	return (
-		<DarkTheme>
-			<AllNavbar  />
-			<AboutHeader />
-			<AboutIntro />
-			<Services4 withPadding withOutTitle />
-			<VideoWithTestimonials />
-			{/* <SkillsCircle subBG theme="dark" /> */}
-			<Team1 />
-			<MinimalArea />
-			<Clients1 theme="dark" />
-			<CallToAction subBG />
-			<Footer />
-		</DarkTheme>
+		<>
+		<Head>
+			<title></title>
+		</Head>
+			<DarkTheme>
+				<AllNavbar />
+				<AboutHeader />
+				<AboutIntro />
+				<Services4 withPadding withOutTitle />
+				<VideoWithTestimonials />
+				{/* <SkillsCircle subBG theme="dark" /> */}
+				<Team1 />
+				<MinimalArea />
+				<Clients1 theme="dark" />
+				<CallToAction subBG />
+				<Footer />
+			</DarkTheme>
+		</>
 	);
 };
 
