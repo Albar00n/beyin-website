@@ -1,8 +1,44 @@
 
 .container {
   padding: 0 2rem;
+position: relative;
+
+}
+.theme{
+  display: flex;
+  align-self:flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
+.dark {
+color: var(--color-golden);
+ background: var(--bg);
+  border-radius: 30px;
+  padding: 5px;
+margin: 0px 1px;
+
+}
+.light{
+color: var(--color-golden);
+ background: var(--bg);
+  border-radius: 30px;
+  padding: 5px;
+margin: 0px 1px;
+
+}
+@media screen and (max-width:500px) {
+  .light, .dark{
+    margin: 0px 5px;
+  }
+  .theme{
+   display: none;
+}
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;

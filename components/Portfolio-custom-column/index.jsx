@@ -33,12 +33,22 @@ const PortfolioCustomColumn = ({
 							<h1 className="wow words chars splitting" data-splitting>
 								Portfolio
 							</h1>
-							<p style={{width:'90%'}}>
+							<p style={{ width: "90%" }}>
 								We are a company that stands for quality and excellence. We take
 								pride in our work and always aim to deliver the best results for
-								our clients. With us, you can be sure that your getting the
-								best possible value for your investment.
+								our clients. With us, you can be sure that your getting the best
+								possible value for your investment.
 							</p>
+						</Split>
+						<Split>
+							<Link href="/contact">
+								<a
+									className="simple-btn custom-font mt-20 wow words chars splitting"
+									data-splitting
+								>
+									<span>Know More</span>
+								</a>
+							</Link>
 						</Split>
 						<span className="tbg text-right">Portfolio</span>
 					</div>

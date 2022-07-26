@@ -16,13 +16,13 @@ const BlcSec = () => {
 								<span></span>
 							</div>
 							<Split>
-								<h2
+								<h1
+									style={{ fontSize: "45px" }}
 									className="extra-title wow words chars splitting"
 									data-splitting
-                  
 								>
 									Do you have a digital idea <br /> you want to bring to Life?
-								</h2>
+								</h1>
 							</Split>
 						</div>
 					</div>
@@ -35,7 +35,9 @@ const BlcSec = () => {
 									experienced developers who are experts in the latest
 									technology trends. We can create custom apps that are tailored
 									to your specific needs and requirements. Contact us today to
-									get started!
+									<Link href="/contact">
+										<a style={{ textDecoration: "underline",margin:'0px 3px' }}>get started!</a>
+									</Link>
 								</p>
 							</Split>
 							<Split>

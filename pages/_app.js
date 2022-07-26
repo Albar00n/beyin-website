@@ -5,7 +5,9 @@ import Script from "next/script";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
+import { ThemeProvider } from "next-themes";
 import "../styles/globals.css";
+import "../styles/theme.css";
 
 export const config = {
 	unstable_runtimeJS: false,
@@ -22,7 +24,9 @@ function MyApp({ Component, pageProps }) {
 			<Cursor />
 			<LoadingScreen />
 			<ScrollToTop />
-			<Component {...pageProps} />
+			<ThemeProvider>
+				<Component {...pageProps} />
+			</ThemeProvider>
 
 			<Script id="wow" src="/js/wow.min.js"></Script>
 			<Script

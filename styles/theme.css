@@ -1,0 +1,23 @@
+:root {
+--font-base: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+[data-theme='light']{
+--color-green: #75dab4;
+  --color-dark: rgb(251, 251, 251);
+  --color-white: #fff;
+  --color-p:#c8c8c8;
+  --color-nav:#f6f6f6;
+  --bg-dark: #ffecec;
+--bg-body-dark:#f9fafa;
+
+}
+[data-theme='dark']{
+	  --color-green: #75dab4;
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-p:#c8c8c8;
+  --color-nav:#0c0f16;
+  --bg-dark: #141414;
+--bg-body-dark:#0c0f16;
+}

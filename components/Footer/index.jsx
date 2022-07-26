@@ -19,7 +19,7 @@ const Footer = () => {
 		<footer className="footer-half sub-bg section-padding pb-0">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-5">
+					<div className="col-lg-4">
 						<div className="cont">
 							<div className="logo">
 								<a href="#0">
@@ -59,12 +59,44 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-5 offset-lg-2 d-flex align-self-center">
+					<div className="col-lg-3 offset-lg-2 d-flex align-self-center">
 						<div>
+							<h1 style={{ fontSize: "30px" }}>The support</h1>
+
 							<ul style={{ listStyle: "none" }}>
+								<li style={{ fontSize: "20px" }}>
+									<Link href="/">
+										<a>Home</a>
+									</Link>
+								</li>
+
 								<li style={{ fontSize: "20px" }}>
 									<Link href="/contact">
 										<a>Contact us</a>
+									</Link>
+								</li>
+
+								<li style={{ fontSize: "20px" }}>
+									<Link href="/terms">
+										<a>Technical support</a>
+									</Link>
+								</li>
+								<li style={{ fontSize: "20px" }}>
+									<Link href="/contact">
+										<a>Help</a>
+									</Link>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div className="col-lg-3  d-flex align-self-center">
+						<div>
+							<h1 style={{ fontSize: "33px" }}>company</h1>
+
+							<ul style={{ listStyle: "none" }}>
+								<li style={{ fontSize: "20px" }}>
+									<Link href="/projects/projects/">
+										<a>Projects</a>
 									</Link>
 								</li>
 
@@ -86,52 +118,6 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						{/* <div className="subscribe mb-50">
-							<h6 className="custom-font stit simple-btn">Newslatter</h6>
-							<p>Sign up for subscribe out newsletter!</p>
-							<Formik
-								initialValues={{
-									subscribe: "",
-								}}
-								onSubmit={async (values) => {
-									await sendEmail(500);
-									alert(JSON.stringify(values, null, 2));
-									// Reset the values
-									values.subscribe = "";
-								}}
-							>
-								{({ errors, touched }) => (
-									<Form>
-										<div className="form-group custom-font">
-											<Field
-												validate={validateEmail}
-												type="email"
-												name="subscribe"
-												placeholder="Your Email"
-											/>
-											{errors.email && touched.email && (
-												<div>{errors.email}</div>
-											)}
-											<button className="cursor-pointer">Subscribe</button>
-										</div>
-									</Form>
-								)}
-							</Formik>
-						</div> */}
-						{/* <div className="insta">
-							<h6 className="custom-font stit simple-btn">Instagram Post</h6>
-							<div className="insta-gallary">
-								<a href="#0">
-									<img src="/img/insta/1.jpg" alt="" />
-								</a>
-								<a href="#0">
-									<img src="/img/insta/2.jpg" alt="" />
-								</a>
-								<a href="#0">
-									<img src="/img/insta/3.jpg" alt="" />
-								</a>
-							</div>
-						</div> */}
 					</div>
 				</div>
 				<div className="copyrights text-center">

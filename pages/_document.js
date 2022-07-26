@@ -24,6 +24,7 @@ class MyDocument extends Document {
 						name="description"
 						content="Beyin is a leading mobile app development company in Abu Dhabi. We specialize in cross platform app development, Augmented reality and virtual reality app development."
 					/>
+					<meta name="keywords" content="شركة تطوير تطبيقات الويب ،خدمات تطوير تطبيقات الويب ،شركة برمجة تطبيقات الويب "></meta>
 
 					<meta name="keywords" content="" />
 

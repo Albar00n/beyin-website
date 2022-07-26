@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"title": {
-			"first": "WE MAKE  ",
+			"first": "WE MAKE",
 			"second": "AUGMENTED REALITIES",
 			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
 		},
@@ -12,7 +12,7 @@
 	{
 		"id": 2,
 		"title": {
-			"first": "ADVANCED  ",
+			"first": "ADVANCED",
 			"second": "TECH DEVELOPMENT",
 			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
 		},
@@ -23,7 +23,7 @@
 		"id": 3,
 		"title": {
 			"first": "EXPECT",
-			"second": "EXCEPTIONAL DESIGN ",
+			"second": "EXCEPTIONAL DESIGN",
 			"desc": "We develop creative solutions for small and big brands alike,build authentic product identities and much more.Lorem ipsum dolor sit amet"
 		},
 		"image": "/img/slid/beyinH5.png",

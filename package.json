@@ -12,6 +12,7 @@
 		"@here/harp-mapview": "^0.28.0",
 		"formik": "^2.2.9",
 		"next": "^12.2.2",
+		"next-themes": "^0.2.0",
 		"react": "^18.2.0",
 		"react-circular-progressbar": "^2.0.4",
 		"react-countup": "^6.1.0",

@@ -8,9 +8,9 @@ const AboutIntro = () => {
 				<div className="row">
 					<div className="col-lg-3 col-md-4">
 						<div className="htit sm-mb30">
-							<h4>
+							<h1 style={{fontSize:'35px'}}>
 								We invision a future full of innovation and opportunities!
-							</h4>
+							</h1>
 						</div>
 					</div>
 					<div className="col-lg-8 offset-lg-1 col-md-8">
