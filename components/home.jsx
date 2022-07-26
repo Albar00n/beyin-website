@@ -7,24 +7,24 @@ import AboutIntro from "./About-intro/index"
 import IntroWithSlider2 from "./Intro-with-slider2";
 import PortfolioCustomColumn from "./Portfolio-custom-column";
 import Services2 from "./Services2";
-import { useTheme } from "next-themes";
-import styles from "../styles/Home.module.css";
+// import { useTheme } from "next-themes";
+// import styles from "../styles/Home.module.css";
 
 
 
 const Home = () => {
-	  const { theme, setTheme } = useTheme();
+	//   const { theme, setTheme } = useTheme();
 
   return (
 		<>
-			<div className={styles.theme}>
+			{/* <div className={styles.theme}>
 				<button className={styles.light} onClick={() => setTheme("light")}>
 					Light
 				</button>
 				<button className={styles.dark} onClick={() => setTheme("dark")}>
 					Dark
 				</button>
-			</div>
+			</div> */}
 			<AllNavbar />
 			<IntroWithSlider2 />
 			<BlcSec />

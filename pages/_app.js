@@ -24,9 +24,9 @@ function MyApp({ Component, pageProps }) {
 			<Cursor />
 			<LoadingScreen />
 			<ScrollToTop />
-			<ThemeProvider>
+			{/* <ThemeProvider> */}
 				<Component {...pageProps} />
-			</ThemeProvider>
+			{/* </ThemeProvider> */}
 
 			<Script id="wow" src="/js/wow.min.js"></Script>
 			<Script
