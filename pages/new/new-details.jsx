@@ -12,9 +12,9 @@ const BlogDetailsDark = () => {
 	return (
 		<>
 			<Head>
-				<title></title>
+				<title> Beyin Technologies - Details Blog </title>
 				<meta property="og:locale" content="ar_AR" />
-				<link rel="shortcut icon" href="/images/favicon.ico" />
+				<link rel="shortcut icon" href="/favicon.ico" />
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1, user-scalable=0"
@@ -30,7 +30,7 @@ const BlogDetailsDark = () => {
 				<link
 					rel="alternate"
 					type="application/atom+xml"
-					href="https://feeds.feedburner.com/blogspot/amDG"
+					href=""
 				/>
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="ar_AR" />

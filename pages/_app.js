@@ -18,15 +18,15 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<div>
 			<Head>
-				<title>Beyin</title>
-				<link rel="icon" href="/img/favicon.ico" />
+				<title> Beyin Technologies</title>
+				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<Cursor />
 			<LoadingScreen />
 			<ScrollToTop />
 			{/* <ThemeProvider> */}
-				<Component {...pageProps} />
+			<Component {...pageProps} />
 			{/* </ThemeProvider> */}
 
 			<Script id="wow" src="/js/wow.min.js"></Script>
