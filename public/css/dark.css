@@ -11,7 +11,7 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
-
+/*
 :root {
   --color-green: #75dab4;
   --color-dark: #000;
@@ -22,7 +22,41 @@
 --bg-body-dark:#0c0f16;
 
 --font-base: 'IBM Plex Sans Arabic', sans-serif;
+} */
+
+:root {
+--font-base: 'IBM Plex Sans Arabic', sans-serif;
+ --color-green: #75dab4;
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-p:#c8c8c8;
+  --color-nav:#0c0f16;
+  --bg-dark: #141414;
+--bg-body-dark:#0c0f16;
 }
+/* 
+[data-theme='light']{
+	  --font-base: 'IBM Plex Sans Arabic', sans-serif;
+
+  --color-green: #fcfcfc;
+  --color-dark: rgb(255, 255, 255);
+  --color-white: #fff;
+  --color-p:#c8c8c8;
+  --color-nav:#f4f4f4;
+  --bg-dark: #ffffff;
+--bg-body-dark:#ffffff;
+
+}
+[data-theme='dark']{
+	  --font-base: 'IBM Plex Sans Arabic', sans-serif;
+ --color-green: #75dab4;
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-p:#c8c8c8;
+  --color-nav:#0c0f16;
+  --bg-dark: #141414;
+--bg-body-dark:#0c0f16;
+} */
 
 
 

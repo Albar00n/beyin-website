@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import React from "react";
 import Head from "next/head";
 import Link from 'next/link'
@@ -5,10 +6,9 @@ import Script from "next/script";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
-import { ThemeProvider } from "next-themes";
+// import { ThemeProvider } from "next-themes";
 import "../styles/globals.css";
-import "../styles/theme.css";
-
+// import "../public/css/dark.css";
 export const config = {
 	unstable_runtimeJS: false,
 };
@@ -21,6 +21,7 @@ function MyApp({ Component, pageProps }) {
 				<title>Beyin</title>
 				<link rel="icon" href="/img/favicon.ico" />
 			</Head>
+
 			<Cursor />
 			<LoadingScreen />
 			<ScrollToTop />

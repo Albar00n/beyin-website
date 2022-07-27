@@ -57,7 +57,7 @@ const IntroWithSlider2 = () => {
 									swiper.slides[i].childNodes[0].setAttribute(
 										"data-swiper-parallax",
 										0.75 * swiper.width,
-									);
+									)
 								}
 								swiper.params.navigation.prevEl = navigationPrevRef.current;
 								swiper.params.navigation.nextEl = navigationNextRef.current;

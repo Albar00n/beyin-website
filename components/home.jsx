@@ -17,14 +17,7 @@ const Home = () => {
 
   return (
 		<>
-			{/* <div className={styles.theme}>
-				<button className={styles.light} onClick={() => setTheme("light")}>
-					Light
-				</button>
-				<button className={styles.dark} onClick={() => setTheme("dark")}>
-					Dark
-				</button>
-			</div> */}
+
 			<AllNavbar />
 			<IntroWithSlider2 />
 			<BlcSec />
@@ -32,7 +25,7 @@ const Home = () => {
 			<AboutIntro />
 
 			<PortfolioCustomColumn column={3} filterPosition="center" />
-			<Clients1 theme="dark" subBG />
+			<Clients1  subBG />
 			{/* <CallToAction /> */}
 
 			<Footer />

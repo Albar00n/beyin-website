@@ -652,11 +652,11 @@ const PrivacyDetails = () => {
 																intellectual property rights have been infringed
 																on our Website. Please file your copyright
 																infringement claim with our Team, at
-																<Link href="Support@beyin.me">
-																	<a className="linkPrivacy">
-																		Support@beyin.me
+																<Link href="mailto:support@beyin.me">
+																	<a>
+																		<span>Email : </span> Support@beyin.me
 																	</a>
-																</Link>{" "}
+																</Link>
 																for such complaints and claims.
 															</li>
 															<li className="liA">
@@ -685,9 +685,9 @@ const PrivacyDetails = () => {
 																	</li>
 																	<li className="liRoman">
 																		Send us a written communication to
-																		<Link href="Support@beyin.me">
-																			<a className="linkPrivacy">
-																				Support@beyin.me
+																		<Link href="mailto:support@beyin.me">
+																			<a>
+																				<span>Email : </span> Support@beyin.me
 																			</a>
 																		</Link>
 																		;
@@ -751,8 +751,10 @@ const PrivacyDetails = () => {
 															or phone number or SMS or WhatsApp as available
 															with us. If You want to give a notice to us, you
 															can do so by dropping an electronic mail to
-															<Link href="Support@beyin.me">
-																<a className="linkPrivacy">Support@beyin.me</a>
+															<Link href="mailto:support@beyin.me">
+																<a>
+																	<span>Email : </span> Support@beyin.me
+																</a>
 															</Link>
 														</p>
 													</li>
@@ -861,8 +863,10 @@ const PrivacyDetails = () => {
 															, or with any content or service or product of
 															Beyin, in that case you may freely write your
 															concerns registered email to{" "}
-															<Link href="Support@beyin.me">
-																<a className="linkPrivacy">Support@beyin.me</a>
+															<Link href="mailto:support@beyin.me">
+																<a>
+																	<span>Email : </span> Support@beyin.me
+																</a>
 															</Link>
 														</p>
 													</li>
@@ -871,8 +875,10 @@ const PrivacyDetails = () => {
 														<p>
 															We welcome your questions or comments regarding
 															the Terms. You can write to us via email:
-															<Link href="Support@beyin.me">
-																<a className="linkPrivacy">Support@beyin.me</a>
+															<Link href="mailto:support@beyin.me">
+																<a>
+																	<span>Email : </span> Support@beyin.me
+																</a>
 															</Link>
 														</p>
 													</li>

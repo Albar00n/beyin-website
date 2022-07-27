@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
-
+import Link from 'next/link'
 
 const ContactWithMap = () => {
 	const messageRef = React.useRef(null);
@@ -210,7 +210,15 @@ const ContactWithMap = () => {
 								</h3>
 								<div className="item mb-40">
 									<h5>
-										<a href="#0">Support@beyin.me</a>
+										<Link href="mailto:support@beyin.me">
+											<a
+												style={{
+													margin: "0px 5px",
+												}}
+											>
+												Support@beyin.me
+											</a>
+										</Link>
 									</h5>
 									<h5>+971 52 588 6620</h5>
 								</div>

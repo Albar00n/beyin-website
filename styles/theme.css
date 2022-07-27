@@ -1,23 +1,34 @@
+/*
 :root {
 --font-base: 'IBM Plex Sans Arabic', sans-serif;
+ --color-green: #75dab4;
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-p:#c8c8c8;
+  --color-nav:#0c0f16;
+  --bg-dark: #141414;
+--bg-body-dark:#0c0f16;
 }
 
 [data-theme='light']{
-  --color-green: #75dab4;
-  --color-dark: #000;
+	  --font-base: 'IBM Plex Sans Arabic', sans-serif;
+
+  --color-green: #fcfcfc;
+  --color-dark: rgb(255, 255, 255);
   --color-white: #fff;
   --color-p:#c8c8c8;
-  --color-nav:#0c0f16;
-  --bg-dark: #141414;
---bg-body-dark:#0c0f16;
+  --color-nav:#f4f4f4;
+  --bg-dark: #ffffff;
+--bg-body-dark:#ffffff;
 
 }
 [data-theme='dark']{
-	  --color-green: #75dab4;
+	  --font-base: 'IBM Plex Sans Arabic', sans-serif;
+ --color-green: #75dab4;
   --color-dark: #000;
   --color-white: #fff;
   --color-p:#c8c8c8;
   --color-nav:#0c0f16;
   --bg-dark: #141414;
 --bg-body-dark:#0c0f16;
-}
+} */

@@ -23,13 +23,17 @@ const Footer = () => {
 						<div className="cont">
 							<div className="logo">
 								<a href="#0">
-									<img src={`${appData.lightLogo}`} alt="" />
+									<img src={`${appData.lightLogo}`} alt="Logo Beyin" />
 								</a>
 							</div>
 							<div className="con-info custom-font">
 								<ul>
 									<li>
-										<span>Email : </span> Support@beyin.me
+										<Link href="mailto:support@beyin.me">
+											<a>
+												<span>Email : </span> Support@beyin.me
+											</a>
+										</Link>
 									</li>
 									<li>
 										<span>Address : </span> FD - GF, Accelerator Building,
@@ -59,10 +63,11 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-3 offset-lg-2 d-flex align-self-center">
-						<div>
-							<h1 style={{ fontSize: "30px" }}>The support</h1>
-
+					<div className="col-lg-3 offset-lg-2 d-flex ">
+						<div className="cont">
+							<div className="logo">
+								<h1 style={{ fontSize: "30px" }}>The support</h1>
+							</div>
 							<ul style={{ listStyle: "none" }}>
 								<li style={{ fontSize: "20px" }}>
 									<Link href="/">
@@ -89,9 +94,11 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="col-lg-3  d-flex align-self-center">
-						<div>
-							<h1 style={{ fontSize: "33px" }}>company</h1>
+					<div className="col-lg-3  d-flex ">
+						<div className="cont">
+							<div className="logo">
+								<h1 style={{ fontSize: "33px" }}>company</h1>
+							</div>
 
 							<ul style={{ listStyle: "none" }}>
 								<li style={{ fontSize: "20px" }}>
