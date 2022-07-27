@@ -31,10 +31,11 @@
   --color-white: #fff;
   --color-p:#c8c8c8;
   --color-nav:#0c0f16;
-  --bg-dark: #141414;
+  --bg-dark: #0c0f16;
 --bg-body-dark:#0c0f16;
+
 }
-/* 
+/*
 [data-theme='light']{
 	  --font-base: 'IBM Plex Sans Arabic', sans-serif;
 
@@ -5558,6 +5559,8 @@ font-family: 'IBM Plex Sans Arabic', sans-serif;
 .footer-half {
   position: relative;
   z-index: 2;
+    color: #fff;
+    background: #0c0f16 !important;
 }
 .footer-half:after {
   content: "";
