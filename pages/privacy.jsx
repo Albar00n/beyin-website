@@ -24,19 +24,25 @@ const Privacy = () => {
 				/>
 				<meta name="description" content="" />
 				<meta property="og:description" content="" />
-				<meta name="title" content="" />
-				<meta property="og:title" content="" />
-				<link
-					rel="alternate"
-					type="application/atom+xml"
-					href=""
-				/>
+				<meta name="title" content="Privacy Policy Beyin Technologies" />
+
+				<link rel="alternate" type="application/atom+xml" href="" />
 				<meta property="og:type" content="article" />
-				<meta property="og:locale" content="ar_AR" />
-				<meta name="keywords" content="" />
+				<meta
+					name="keywords"
+					content="شركة تطوير تطبيقات الويب ،خدمات تطوير تطبيقات الويب ،شركة برمجة تطبيقات الويب "
+				/>
+				<meta
+					name="keywords"
+					content="augmented reality technology,phone app,app development,mobile app development,mobile application development,mobile development,mobile app design,app developers,augmented realities,flutter development,react native app development native"
+				/>
+				<meta
+					name="keywords"
+					content="augmented reality mobile phone, mobile app ,developer augmented realitydevelopment,create augmented reality app,creating augmented reality"
+				/>
 				<meta
 					property="og:site_name"
-					content="Mobile App Development, Web Design, Digital Marketing company in Kuwait"
+					content="Mobile App Development, Web Design, Digital Marketing company in Abu Dhabi"
 				/>
 			</Head>
 			<DarkTheme>
